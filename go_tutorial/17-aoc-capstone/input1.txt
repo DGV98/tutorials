@@ -1,0 +1,90 @@
+jolly -9 69 37 -36 88
+tinsel 41 -19 78 54
+maple 31 -9 -15 19 -5 22
+nutmeg 12 -6 82 24 38 -21
+hazel 36 -9 43 49
+ivy -24 23 64 -1 38
+clove -23 -7 48 -21 -5 -36
+merry -7 -35 -33 53
+frost -35 87 -25 47 -4 -12
+nutmeg 38 -40 60 -24 78 -13
+holly -34 10 -18 52 83 -17
+cocoa 13 49 47 -25 75 70
+sugarplum 10 40 -17 49 -6
+cocoa 12 77 14 3 76
+hazel -6 44 88 -11 65
+twinkle 19 20 32 89 4 53
+merry -27 67 35 57
+pudding -33 2 -25 -25
+jolly 48 82 -32 25 83
+frost 30 37 -37 62 -8 19
+ivy 71 -22 60 82 63 -32 22
+juniper -26 -15 35
+holly 50 -33 83 38 74 44
+holly 5 46 28 -11 32 77
+juniper -20 32 1 58 -15
+biscuit -31 34 86
+pepper 35 58 6 74 43 29 9
+ivy 20 -13 74
+maple 44 -35 -11 47 9
+holly 10 -12 52 -8 30
+noel 72 39 83 -28
+hazel 85 42 2 32
+pepper 19 19 -26 33
+holly -5 30 80 28 89 80 24
+sugarplum 57 29 -37 14
+merry 66 44 28 81 -27 85
+clove 72 24 33
+juniper -4 74 37 -13 87 12
+pepper -30 84 58 11
+clove 50 63 -39 17 -10
+tinsel -12 39 35 -33 -6
+pudding 63 46 30 78 0
+cocoa 0 5 -38 -17 89 -40
+biscuit 9 21 -18 67 37 -32 55
+clove -23 4 -26 -16 22 -15
+clove 13 68 57 20 76 49 -14
+twinkle -8 60 33 57
+noel 3 25 34 -39 -24
+holly 79 30 7 43 52 21
+sparkle 27 -8 -28 76
+tinsel 11 43 -32 56 -4 -37 -21
+sugarplum -27 37 6
+cocoa 40 11 -1 63 87
+ivy 73 -2 -21 55 65 66
+twinkle -20 59 -32 -20 6
+ginger -12 23 28 -40 32
+sparkle 60 -32 -12 -8 1
+tinsel -23 34 70 89 37 -2 -10
+tinsel 87 -33 74 74 10 67 -19
+maple -3 77 8 85 -36 87
+biscuit 71 52 -26 -10 66
+clove 38 58 33 -3 45 19 43
+hazel 48 -10 -28 2 72 -28 78
+noel -14 73 3 -33 60 56 -13
+ginger -40 5 51 72
+jolly -37 -9 38
+hazel 60 21 35
+pudding 58 6 59
+cocoa 85 -6 -2 -38
+nutmeg 64 20 62 -36 75 19 35
+pudding 42 57 -10 70
+pudding 78 -34 -22 -8 8 -27 4
+tinsel 41 68 -19 27
+ivy -33 25 40 -26 81
+noel 52 12 -32 11 55
+clove 2 48 45 35 -4
+nutmeg -34 -20 46 -2 -33 47 -32
+pudding 53 -25 73
+clove 70 -4 87
+frost -21 -11 70 -33 -5
+hazel 13 -37 68
+noel 29 54 84 21
+twinkle 32 14 -27 4 -8 55
+merry 57 23 -21 5 -34
+nutmeg 10 -15 43 1
+sugarplum 26 52 31 69
+merry -12 -29 45 90
+jolly 8 -23 25 -30 74 81
+ivy 69 -37 28 34 65
+tinsel 45 34 40 3 22

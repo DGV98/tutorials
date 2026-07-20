@@ -1,0 +1,61 @@
+station_id,name,district,latitude,longitude,capacity
+1,Harbor East,Harborfront,44.90662,-92.23383,23
+2,Harbor West,Harborfront,44.90318,-92.23488,15
+3,Ferry Landing,Harborfront,44.89397,-92.2293,15
+4,Pier 12,Harborfront,44.90052,-92.20671,26
+5,Seawall Promenade,Harborfront,44.89446,-92.23247,19
+6,Dockside Market,Harborfront,44.90496,-92.21683,18
+7,Marina Green,Harborfront,44.89243,-92.22982,18
+8,Lighthouse Point,Harborfront,44.90505,-92.2224,14
+9,Old Town Square,Old Town,44.91186,-92.20277,40
+10,Cathedral Gate,Old Town,44.92417,-92.21544,14
+11,Cobbler's Row,Old Town,44.92701,-92.21059,24
+12,Merchant Hall,Old Town,44.91695,-92.1948,22
+13,Clocktower Plaza,Old Town,44.90746,-92.19896,17
+14,King's Cross Lane,Old Town,44.92205,-92.21932,14
+15,Tannery Yard,Old Town,44.90741,-92.19695,12
+16,Guildhall Steps,Old Town,44.92691,-92.21758,14
+17,Central Station,Midtown,44.93966,-92.17908,35
+18,City Hall,Midtown,44.94122,-92.17627,22
+19,Grand & 3rd,Midtown,44.9256,-92.19045,15
+20,Grand & 9th,Midtown,44.93359,-92.17641,17
+21,Union Plaza,Midtown,44.93623,-92.20338,20
+22,Opera House,Midtown,44.92958,-92.20189,22
+23,Meridian Tower,Midtown,44.92816,-92.20342,11
+24,Fountain Court,Midtown,44.94098,-92.18658,13
+25,Exchange Street,Midtown,44.92874,-92.20131,17
+26,University Gate,University,44.93845,-92.17672,24
+27,Science Quad,University,44.93655,-92.15847,20
+28,Library Mall,University,44.93665,-92.17116,17
+29,Student Commons,University,44.94227,-92.176,30
+30,Observatory Hill,University,44.9547,-92.17711,19
+31,Athletics Center,University,44.94144,-92.17147,32
+32,Campus North,University,44.95262,-92.1583,15
+33,Riverside Walk,Riverside,44.90829,-92.17319,21
+34,Willow Bend,Riverside,44.92461,-92.15479,13
+35,Old Mill Crossing,Riverside,44.90503,-92.16018,27
+36,Kayak Launch,Riverside,44.91447,-92.17464,33
+37,Heron Park,Riverside,44.92632,-92.16812,13
+38,Floodgate Road,Riverside,44.90663,-92.15285,17
+39,Ferry Meadow,Riverside,44.90614,-92.17957,19
+40,Northgate Mall,Northgate,44.97641,-92.18999,22
+41,Aurora & 22nd,Northgate,44.96004,-92.19421,18
+42,Aurora & 40th,Northgate,44.96406,-92.19907,21
+43,Birchwood Terrace,Northgate,44.968,-92.17587,14
+44,Summit Ridge,Northgate,44.96676,-92.18729,21
+45,Poplar Circle,Northgate,44.95409,-92.17902,13
+46,Northgate Transit Hub,Northgate,44.96736,-92.19322,25
+47,Westfield Green,Westfield,44.91855,-92.23319,16
+48,Foundry District,Westfield,44.92819,-92.23315,15
+49,Steelworks Gate,Westfield,44.9307,-92.23483,24
+50,Warehouse Row,Westfield,44.9288,-92.23566,23
+51,Gasometer Park,Westfield,44.93861,-92.24221,40
+52,Tramline Depot,Westfield,44.92661,-92.24782,12
+53,Weaver Street,Westfield,44.93185,-92.24571,16
+54,Cedar Park Loop,Cedar Park,44.95169,-92.1973,26
+55,Rosemont & 5th,Cedar Park,44.95237,-92.21683,12
+56,Orchard Lane,Cedar Park,44.94047,-92.21038,13
+57,Hillcrest Point,Cedar Park,44.95497,-92.21163,10
+58,Maple Grove,Cedar Park,44.94311,-92.21433,23
+59,Sunset Boulevard,Cedar Park,44.94358,-92.19942,20
+60,Botanic Gardens,Cedar Park,44.94138,-92.20635,17

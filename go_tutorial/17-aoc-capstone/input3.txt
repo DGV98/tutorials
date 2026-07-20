@@ -1,0 +1,181 @@
+abcdefghij
+reverse 6 9
+reverse 4 8
+swap 0 6
+spin 6
+swap 2 9
+swap 4 1
+reverse 2 8
+reverse 0 6
+swap 7 8
+spin 4
+swap 8 7
+reverse 3 6
+spin 8
+spin 1
+swap 0 4
+spin 2
+spin 8
+swap 9 3
+spin 8
+spin 7
+swap 5 8
+spin 8
+reverse 8 9
+spin 4
+swap 8 1
+reverse 5 8
+swap 6 2
+reverse 6 7
+swap 3 6
+reverse 6 7
+swap 3 1
+swap 3 1
+swap 8 6
+spin 2
+spin 5
+spin 1
+swap 8 5
+swap 5 7
+reverse 2 3
+swap 0 2
+spin 2
+swap 2 4
+swap 7 1
+spin 3
+swap 1 9
+swap 0 3
+swap 9 1
+spin 7
+swap 0 7
+swap 8 4
+spin 7
+reverse 4 7
+reverse 5 6
+reverse 8 9
+swap 1 4
+swap 5 3
+spin 4
+swap 8 7
+spin 5
+spin 7
+spin 7
+spin 7
+swap 6 0
+reverse 3 6
+swap 7 5
+spin 6
+swap 3 0
+spin 6
+spin 4
+spin 5
+swap 5 2
+reverse 6 7
+swap 5 6
+reverse 2 7
+spin 6
+swap 6 0
+reverse 0 8
+spin 2
+spin 3
+spin 2
+spin 8
+reverse 4 7
+spin 2
+reverse 7 9
+spin 2
+swap 6 2
+swap 0 2
+spin 3
+swap 0 9
+spin 7
+spin 7
+spin 6
+spin 9
+reverse 1 7
+spin 2
+swap 9 5
+reverse 2 5
+reverse 7 8
+reverse 4 5
+spin 6
+spin 9
+swap 0 6
+reverse 1 2
+spin 4
+spin 7
+spin 7
+reverse 3 8
+spin 2
+reverse 1 3
+swap 9 2
+swap 1 5
+spin 5
+reverse 3 7
+reverse 5 6
+swap 3 4
+swap 5 4
+swap 7 6
+spin 7
+spin 1
+spin 7
+spin 6
+swap 4 9
+swap 6 3
+swap 6 7
+spin 4
+swap 5 2
+swap 8 7
+spin 2
+spin 5
+spin 5
+reverse 3 9
+swap 0 1
+spin 9
+spin 1
+spin 7
+swap 4 7
+reverse 0 3
+spin 6
+spin 4
+reverse 0 5
+spin 7
+spin 4
+reverse 4 8
+reverse 1 2
+spin 3
+spin 9
+spin 9
+spin 4
+swap 4 3
+swap 6 7
+reverse 4 6
+spin 4
+swap 5 2
+spin 7
+spin 7
+reverse 0 8
+reverse 4 9
+spin 3
+reverse 8 9
+reverse 2 6
+spin 6
+swap 1 5
+spin 8
+reverse 7 8
+spin 1
+spin 6
+spin 8
+reverse 2 8
+spin 1
+spin 4
+spin 4
+reverse 8 9
+reverse 5 8
+spin 8
+reverse 1 7
+swap 8 4
+swap 4 1
+reverse 2 5
+spin 5
+swap 9 8

@@ -1,0 +1,21 @@
+.{
+    // The package name — the key other packages would use to depend on
+    // this one. An enum literal, not a string.
+    .name = .aoc_toolkit,
+    .version = "0.0.0",
+    // Generated once by `zig init`, then never changed: together with the
+    // name it globally identifies this package across versions.
+    .fingerprint = 0x1f1b5b7895288ec8, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0",
+    // Third-party packages would go here (`zig fetch --save <url>` adds
+    // them). This project has none.
+    .dependencies = .{},
+    // The files that make up this package when someone else fetches it.
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "input",
+        "README.md",
+    },
+}

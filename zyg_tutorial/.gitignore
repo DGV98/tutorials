@@ -1,0 +1,3 @@
+# Zig build artifacts — regenerated on every zig test / zig build
+.zig-cache/
+zig-out/

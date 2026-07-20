@@ -1,0 +1,681 @@
+......##.....###0###.#.............####..#....#.....#.#...#..#..#.##..#......##.
+......#....#...............#.##......#..#......#..............#........#..7...#.
+........#.##.#.......#...........#....##.........#..#.#.##..#.#...#.............
+..#...###.#......#..#...##.#.#....##....#.......##.#..................#.......##
+...#.#..#........#.#......#.#.......#.........................#..........#......
+..#..#.#.......#......#...#.........#.....##.#.......#...#.....#.#.#.#..##...#..
+...#..#...........###..#.........#.#.#...###..#...#........#.#.....#..##.......#
+...#.###..............#......#...........#....................#..#......##...#..
+..##...#.#...#..........#.#.......#.......###...................#......####.....
+...#.#.#...................##...#........#..#.....#.......#.#..#..#......#.##.#.
+.##..#................#...............#....###...##..#....#...#.###.......#..#.#
+#.#....#...#....#......#.#.#......#..#..#..#.......#.........#........#.#...#...
+..#.#....#....#......#...................#..#.#...........#...8......#.......#..
+.................#......##..#..#.##..#.....#.#.......##.......#...#......#......
+.......#..###...###.#.#.#.......##...#...#...........#...........#..#.......#...
+##...........#...#.######..##....#....#..#.....#.....#.#.##......#..#.......##.#
+.#..###.....................##.#...##..#.#...#.#....#.#.#.#...#.........#..#....
+.#............#..#..#...##.##.###....#..#..#........#...#.....#......##....#.#..
+#.#.##..#.###..#......#...##..#...#..#....#.....#.#..#.#....#.....#....#........
+......#...#.##.....#......#.......#...##..#.#...#.........####.........##.......
+..#..##..##....#......#.#.#.##..#...........#..##..............#..#..........#.#
+.#.#.......#..#................................#.###......#.....#...#...##.#....
+##...##.....#.....#..#.##....................#.....#...##......#.##......#..##..
+...........#...##..#.#.##.#...#..............###.#..#....#.#......#..........###
+..##..####.....#......#.....##..#...##.#..#..#.....#...#.......#.....#......#...
+..####........##...##.#......##............#.##.#...#..##..#....#..#...#.....#..
+.............##.#..#...#.#.................#.#..#.#.........#....#.#......#.#...
+#...##........###.....#........##....#..#.#..#...#..#...##.#......#.#...##....##
+..#.....##.#..#....##....###.#......#...#...#..#.#.#.......#...#.#..#.#..#..#...
+..#....###.......#.........#..........#.....###.##......#.#......#...........##.
+.#..............#..##.##...#....................#......#.#.#......#...#..#.#....
+..#......#...#.#.....#....#......##...#....#.##......#........##.##....##...#...
+#..........#.#.....#...........#......5#..#.###..........#.....###.#........#...
+#.#...#...##...#.....#.........#......#.#......#......##..#....##...#..#...#.#..
+..............#..##..##...#...#..#.#.#....#....#......##.##..........##..##..##.
+#........#..#.....#..#.1...............#...##......#......##.#...##......##.#...
+...#..#....#.##.#....###.................##.#.#....#..##..#...#...............#.
+....##.#.....##..#..#.#.#.##...#..#....#....##..#..#.#......#.#....##.......##..
+....#..#..........##........#..#..#....#..#.........#...#......#....#.#.##...#..
+##..#....#....#.....#..###..#...#.##...#.......#.#..#..#.#....#.................
+..#...........#.##....#..#.#.#.###.###.#.#...........#........##.......#...#....
+.#.....#..###..#.#...#...#.#...##........##...#...#...###...#.........#.#..#...#
+................#..........###.#.#.####.......#.......#....#.#....#.#.......#...
+.....#.#.##.......#.#..#...#.#.....#.#...#.##...........#..............#....#..#
+...........#...##.##.........#......#.....###.##........#...#......#..##..##.#..
+....3#...............#...#.....#.##..#......#...#.#...#.......#..##..........#.#
+....##....#.#.#...#.#.....#..#.........####...#............#..#.#..#..........4.
+....#......#.##.#.#..#..........#.........#...#...#............#...#..#..#...#..
+#......###.#....#..#...###......#.......#............#..........#...##...#.....#
+..........#.#.#...#..2#...####......#..###..........##...#.#......##....#.......
+.#..#.......#.#..#..#.#...#..#....#....##.....#.###.#.#.##......#.....#...#.#...
+.#..##.#....#.......#............##...##..##.##..##..##.........#..#..#.#.....#.
+##.#.#..........#......#.#.#..#...###.................#......#...#....#........#
+............#..#.##.........#...##..#.#.....................#......#...##...#...
+#..#................#.....##.##.....#..#.....#.#.###.....###..........##........
+..........#.###............#.#..........##....................#.#.....#..###...#
+####...#.........#.......#.###..###.......#.##.#...#....##..........#...#.....#.
+#.#........#...#.#.#....#.####..##.#....##....#..........#.....#.##....##.......
+..........#..#....#..............#.....##...###....##.#........#.....##.....#..#
+..#..###...##.#...#..##...##....6..##.....#.....##......##..........#..#...#....
+#....#.....#...#.......#..#.....#..#.....#...#.....#......#.........#...##..###.
+..............###....#...#...###...#.....#...#......##..........#.......##......
+#....#..#....#.......#.#.#...##.###...........##.#..............##.####.#..#...#
+#....#.#..#....###......#.....##........#...#.#.##....#..##.....#..###.#..#.#...
+....#..#.....#........#.##..#...#...##...#........#...#.#.###..#.##......#......
+.......#.....#....#..#.#....##.#....#.#..................##....##..#.##..#.##..#
+............#.....###...#.#....##.###....#.#.....#....#.#........#....#.#.####..
+..#......##.#....#...#.##..##...#...#......#.#........#.##.........##...####....
+...#......#.....#...#.#.....#...##........#..#.#..#.#.....###..###..#....#...#..
+....###..###..#...#..........#.###.#......#.#...........#..#.#.....#.#......#...
+....#.#..#.#.....#............###.#..........##.......#...#..#..........##...#..
+.....#..............#............#....##.##..#..#....#...........#............#.
+#..#.#.......#.........###...#.....#..#.#.....#...#....#...###......#.#..#...#..
+...........#.........#.....#...##..#..........#.......#........#.....#.....###.#
+...#.##.....#.#..#..#...#.##................#.....#.......#.#...#...#......#...#
+....#.....#.#.#........#...................#..###.........#.....#....#..........
+.#..#...#.#...#####.....#.....###........#...........#........##...#9....#......
+.###......#.....#...........#...#.#...#...............#..#.##.......#..#.......#
+#....#...##..#.#..........###.......#......#......#.....#.####......#..#.#..#.#.
+...##.#..#....##.#.................#....#.....#..#.....#...###..................
+
+station 6 report: gain=9140, echo -6841, load: 161696, drift: 106920, drift 995804, echo: -6982, trim=-8356
+station 1 log: boost 11167, echo 991929, gain 5828
+station 8 report: gain -6557, spike=305129, boost 658031, cal=-330890, drift 326509
+station 7 check: gain=-3907 boost=5828 drift: 620979 boost=-779162 bias -3903 echo=-676733 gain=-614335
+station 6 log: load: -722801 cal -8593 bias=-578265 boost 5828 cal=4202
+station 5 log: bias 9757 drift: 9140 bias: -896933 echo=-488881 boost: 9757 cal: 920491
+station 5 check: spike 520265, spike=792, load=-3907
+station 5: echo -484662, drift: -8356, trim 134375, load=-35856, bias: 9140, gain: 141289
+station 0 report: spike=195311, spike -660442, spike=760261, spike 801112, bias: -911797, cal 508580, bias: 9140
+station 6: spike=409471 load: -616541 boost: -8356 gain: -3907 echo 794911 trim -758304 gain=9757 load -6982
+station 4 report: spike -8356, phase: -8356, bias: -685999, spike: -6557
+station 4 check: echo: -8356 load 1895 cal 366115 boost: -6982 cal: 367791 spike 162318 echo 740550
+station 4 check: echo: 355244, drift=-771912, boost -847501, cal 9757
+station 7 report: trim=-8356, cal: -8356, load=-242927, boost: 591983, spike=5828, drift: 8004, load 9140
+station 6: trim -470926 load 244058 bias=927572 cal=-357083 boost: 9757 boost: 9140 trim=-389839
+station 6 log: cal=357937, cal: -603175, boost=8004, gain: 1895
+station 7 report: gain 416021 load: 4202 cal: 851212 load: -6982 trim: 749072 phase=-738532 boost 283116 boost=999553
+station 9 log: spike=877417, echo=-334873, trim: -292292, echo=514998, gain: 9140
+station 3 log: gain=-8356 load=325259 echo=235546 echo 832588
+station 6 log: boost=250413, bias: 8004, cal: 157458, gain: 746761
+station 6 check: bias -293300, boost 478588, phase 717288
+station 6 log: drift: -92313 spike -430264 phase -628445 bias -464540
+station 6 report: load 148018 trim=-763087 phase: -8356 spike=457552 trim: 714374 bias: -3907 trim -446692
+station 8: spike -959066, cal=212883, cal=-92544, bias -373831
+station 6: load -255466 cal=-38828 drift=-511594 load: -998724 boost: -514197
+station 6: spike=-6982, boost -904253, cal: -835625, gain 5828, bias=-343605, cal -6841, boost: 880258, gain=-3907
+station 6 log: echo -6982, boost 153227, gain=-891134, phase=-520079, spike=8004, load: -532729
+station 6 report: spike 429655 cal=-982014 trim: -6557 trim: -6841 spike=-846859 drift=59033 echo=-8356 drift=362427
+station 6 check: spike: 8004 echo -134493 gain 22884 trim=-6841 boost=4202 drift -186533 trim=-123111
+station 5 check: gain=4202, drift=-852465, boost: 8004, phase -6557, boost: -756949, phase: 166223
+station 6: bias 93308, cal=113492, phase=-6841, drift=218409, bias -8356, spike -623112
+station 6 report: gain=970949, trim=-912902, load -554974, load=-6841, spike: -307429
+station 4 log: echo: 784282 echo -3907 load -618151 cal -623612 boost 792 echo -50086
+station 5: phase=-744745 trim=-226356 cal: 358037 drift: 371465 phase: 625829
+station 6 report: boost: 771399 phase: -8356 trim=-6557 phase=-880621 cal -908564 phase: 359392 phase: -980537
+station 6: phase=789375, gain: 143299, gain: -6982
+station 4 report: cal 9757, spike=-542444, trim=390675
+station 6 report: echo 822560 trim=217469 boost 9140 echo 8004 echo: -783079 gain: -824277 echo: -6841
+station 6 report: cal 620530 phase=4202 cal: 59162 trim: -23534 phase=-8356 cal -223738 trim=-8356
+station 9 report: cal=-3907, bias: 792, phase: -6982, cal: -714092, echo=-826285, gain=820672, drift: -694937, phase=-690259
+station 8 report: gain: -622352, load=1895, phase: 703091, echo=8004, bias: -980322, drift=275332, gain 9757
+station 6 report: echo 8004, spike: 9757, gain: 5828, bias: 8004, drift=-843, cal: 5828, trim=-34702
+station 8: boost: -384868, spike=206728, bias: 9757, trim: -203357
+station 6: gain -6982 spike=-748512 phase: -8356
+station 4: cal=-8356, load: 8004, boost: -8356, echo=324420, cal=792, load=-8356, bias 256915, drift: 1895
+station 7 log: spike=773145, drift=-3907, gain=946492, gain: -819327, bias -767929, boost: -6841, load=405598
+station 6: echo=324989, gain=218873, gain: -343994
+station 8: trim -3907 boost -8356 gain=1895 phase=-830236 echo=-8356 gain=8004 spike=812812
+station 6 check: drift -6841 drift=577999 phase=-799755 bias=61418 bias=424603 load: 255164 cal -113700 phase -6982
+station 8: echo -711760, boost=-346107, drift 379560
+station 6 report: bias: 742622, bias: -663655, spike=-3907
+station 6 check: gain: 368263, cal: 4202, spike -424194, echo: -644027, boost=-570934
+station 8 report: phase: -8356 echo=-6982 echo=115051 echo=297976
+station 6 log: drift=-588253 drift=-192424 drift: -8356 echo=113574 drift=1895 drift: 406269 drift=-3907
+station 6 check: drift: -8356, phase: -863744, trim 792, phase=607660, echo=-36184, phase 167768, echo -608363
+station 6 report: bias: 8004, gain=-258757, drift: 777826, load -8356, trim 9757, echo=9140, load=-317726
+station 4: load: 72093 cal 521234 echo: -8356 echo 792 echo 278956 bias -458178 load: -699735
+station 1 check: cal -847946, phase=-30924, boost=393353
+station 6: trim -414415, load -8356, phase -531406, load: 676590, boost: 276350, trim=-6557
+station 4 log: gain=792, spike: -987194, bias: 87445, boost: 727364, bias: 147844, trim: -3907, echo=725402, trim -605098
+station 6 check: load -3907, gain -31107, drift 8004, gain: -881574, gain -252137, gain: 748420, cal=-396562, load -104965
+station 3 log: spike -282642 load=-188423 phase -827289 cal=342133 spike=40313 load: -3907 echo: -565881 drift: 996166
+station 6 check: spike -42766, boost: -81820, load -3907, echo: -8356, trim=-88974, boost: -6982, trim: -8356
+station 6 report: bias -473386, bias -708538, trim=9757, spike -603472, gain=-8356, cal=504689
+station 6: bias -6982 trim: 748448 drift=-3907
+station 6 log: cal -6557 trim: -891741 spike=-913342
+station 9 report: gain: -870456 boost=-689974 bias=318525
+station 6 report: load 9068, trim=-6557, load 993925, trim=-678662, trim 518482, cal -8356, bias -8356
+station 8 check: trim: -8356, drift -812611, load 37586, gain 214087, load 1895
+station 8 report: phase=472078 trim 8004 load=-8356
+station 6 log: phase 134945 cal 339562 spike: 4202 trim 491230 bias 202518 drift=773377 bias 602003
+station 6: gain 4202, spike=630399, bias=928769, drift 1895, trim: -6841, phase=-89667, cal -8356
+station 8 check: load 558173, load: -581539, load=-6557
+station 6: spike=-242889, boost: -61180, echo=-840717, bias -173244
+station 6 log: bias=-8356 load=263339 boost: -542873 bias=-93641 drift 655849 echo 1895 drift=294061 spike: 4202
+station 9 report: phase 203680 boost: 792 drift: -8356 boost -147950
+station 6 report: drift: -326716 phase 4202 cal 9757 cal -454651
+station 6 report: spike=-150717 boost: 5828 trim -6557 boost -505206 boost: 719453 cal=-935539 drift: -1070
+station 8: load: -594221, phase 9140, echo=-765934, boost 390341, cal=-8356
+station 6 report: cal -209607, boost: -482784, spike: -6982, spike: -6982, drift -864072, gain -755011, drift 680084, phase: -8356
+station 6: load: 258082, trim: -45384, spike=-6841, spike=-361132, boost=641179, cal -6841, drift=-8356
+station 6 report: gain=797756, boost: -86740, echo: 9140, phase 8004, bias=-900921, boost=9140, spike=622961
+station 6 report: trim=786380 trim 416951 gain 9140 load: -648267 echo 427118 drift 9757 bias -476625
+station 2 check: bias -614325 bias: -239106 phase -586550
+station 5 check: gain: -672273 cal=-6982 bias=-68405 boost=-843345 gain=-423148
+station 6 report: trim 9140 gain=682552 drift: 360826 spike: -8356 phase 71474 echo: -6557 echo=-763767 phase: 582450
+station 3 check: phase: -8356, drift=514852, gain: 5828, bias=-6982, echo -8356, bias=406565
+station 6 check: load -6982 spike=9757 gain=177373 bias -6841
+station 6 report: echo: 792 load=-726631 gain: -702230 cal -158628
+station 6: echo: -502500, trim -872663, gain=8004, load 231616, boost -463137, phase=-8356, bias 4202
+station 8 check: trim: 973608, cal: 8004, boost -3907, bias=-3907, trim: -243664
+station 7 check: boost: 8004 gain=-6557 spike: 5828 boost: -8356 bias: 961240 bias: -8356
+station 4 report: gain=-337678 spike: 792 boost 972171
+station 8 report: gain 7385 trim -6557 boost: 45996 spike=-93843 spike: 498238
+station 6 log: boost: -10247 echo: 1895 cal 5828 cal: 520405 spike -3907 drift=-700882 drift=-8356 cal 339932
+station 8 report: gain 4202, spike -6557, load -6982, drift=-338842, gain -543492, cal=-481319, load=1895
+station 6 report: bias=-6982 bias -8356 boost=-741907 gain 735646 bias: 884636 gain=139098 cal -163447 boost 913767
+station 8: cal=-212379 load=-521229 spike: 527216 spike 792
+station 6 check: trim: 979808 boost: 367063 bias=-669875
+station 6 check: gain -869298 bias: -8356 phase -829965
+station 4 log: echo=-6982 trim=-527892 echo: 149713 cal 4202 spike=357560
+station 6: echo: -6841, cal: 5828, load=-6557, bias -6557, spike: 792, drift -8356, boost: -6982, gain: -230766
+station 6: cal 632444 bias 737362 bias -509653 phase: 296530 phase=704317
+station 6: boost=970660 cal -636710 drift -8356 phase=-360884
+station 3: gain: -6557, load: -3907, cal -6557, trim 231963
+station 6 log: trim 8004, phase -6841, trim -3907, echo: -6841, trim -8356, load -247152, boost=-527275, gain=696291
+station 6 check: drift=5828, load: 375580, phase=281996, phase=933707, cal: 127672, gain -83815, load -979268, phase=4202
+station 6 check: drift -581544 drift: -8356 phase=-8356 echo 153105 bias=444
+station 6: gain: 792, load=615276, drift -767074, trim -8356, boost 693050, bias: -6557, boost=-6982, boost: 623595
+station 1 report: spike: 5828, gain=-990638, gain: 1895, drift: 928145, echo -8356, cal: 278155, echo -3907
+station 5: load: -8356, echo=-923212, spike=433290, phase=5828
+station 9 log: boost=1895 trim -3907 load=-782671 phase=-183879 gain: -223618 bias=-226002 trim: 327066 boost: -92313
+station 6 report: boost=299828 spike -591351 spike=-555270 trim: -384143 gain: -347260
+station 6 check: boost: -8356, cal: -836463, spike=1895, gain: 617971, drift=-561892
+station 1 check: bias: -298943, boost=-398974, phase 1895, cal=878509, trim=-43304, trim -8356, echo 605824, drift=-6557
+station 6: echo: -245859, gain 426316, gain: 9757, cal=792
+station 6 log: spike -244308 echo=131932 spike 9140 gain=375810 cal: 722354 cal: -191661 echo -3907
+station 3 report: boost: 370198 spike=313779 load: 479755
+station 6 check: phase: 921557, bias: 8004, echo: -8356, cal: 4202
+station 6 check: spike=9140, bias: 9140, bias: 157587, bias=117545, spike: -8356, cal: 854255, boost: -8356
+station 6: boost=861507, trim -943433, echo=-6982, bias: -801625, spike -612709, load: 291373, cal=663543
+station 1 log: gain: 792, spike=792, boost -6557, drift 394027
+station 7 report: echo: 71588, load 121864, cal -736322, bias: -619457, bias: 555095, boost: 749553, cal: 9757
+station 6 check: trim 122995 load -770526 cal: 995693
+station 6 check: trim: -3907 cal: 494358 load 39454 spike=-271661 cal: -192072
+station 6 log: boost=-605723, boost -8356, trim -3907, drift 8004
+station 7 report: bias -133840, boost 5828, load 5828, echo=-766952, drift 773017, cal 653188
+station 0 report: boost: 162506 gain 5828 drift=9757
+station 6: trim 5828, boost: 1895, phase=525942, echo 470848
+station 7 check: spike 863021, bias 310974, bias: -8356
+station 7: echo=-70843, phase: -55576, bias=-6841, boost 9140, phase -8356, boost: 8004, echo: -3907, drift=9757
+station 8 report: bias: -886170, bias=-3907, boost: -6982, boost=-6841
+station 6 check: boost -6841 echo 9757 bias: 1895 bias -173836 boost 751446 drift=-293372 spike: 9757 gain -361929
+station 6: load=-8356, spike -386380, boost: 4202, load=-758247, bias -8356
+station 6 log: gain -876087 gain -8356 bias: -505917 spike: 599012 drift -77925
+station 6: spike 886259 boost: 220263 spike 427967 bias -3907 bias: -710861 cal 792 bias 930221
+station 6 check: boost 538435 spike -508695 boost=132847 trim 638868 spike: -6982
+station 8 log: bias=-555155 bias: 135091 spike -6557 spike -913784 gain=700167 trim=394578
+station 3 report: bias: -816584 drift: -6982 drift=353226 gain -276385 phase=-495473 gain: -6557 drift=9757 cal=-277779
+station 6: bias: 9757 gain: -572980 drift=4202 drift -503655
+station 6 report: trim=-3907, gain: -42736, trim=792, spike=214301, cal: 863330
+station 6 check: drift: 795308, trim=585479, gain=586366, trim: -851161, spike: 5828
+station 6 log: gain: 979036, load=-3907, boost -3907, bias=242507, drift=4202, phase: 356054, cal: 313420, bias=167355
+station 8 report: trim 1895, echo 792, cal -6841, load=-6841, cal -829878, cal: -558144
+station 2 log: echo: 467098 cal=-8356 bias=94948 spike -292221 load: 424900
+station 7 check: cal: -24176, boost: 904893, echo=-8356, echo -616844, gain: 526041, bias: -593370, gain -77635
+station 6 log: load=-353905 spike: 157742 trim 430813 drift=334386 phase: -8356 echo=-346383
+station 6 log: drift -97055, phase=419738, cal 160684, drift=821119, load -210236, cal 517479
+station 6: trim=-315064 trim: 434244 trim 348710 echo: -190436 cal: 183817 drift -6982
+station 6 log: spike: 1895 spike=546662 trim: -683000 spike=-353089
+station 4 log: cal -650117 echo=-149095 phase=-249218 bias: -930609
+station 1 check: drift 179581 spike: -5239 phase 1895 load: 452767 load 937149 drift: -212807
+station 3 report: spike=9757, load: 661760, gain=-67458, phase=-389767
+station 6 check: bias=-8356 trim: -3907 cal: -533659 cal 311082 boost -695105 gain: -6982 gain -252388
+station 6 check: bias=-199122, cal: 5828, spike=961389, drift: -707872, bias: -653636, drift=41325, load: 8004
+station 6 log: phase: 9757, gain=586962, cal: -650352, echo: -475355, echo: 195849, drift: 309137
+station 8 check: spike 430752, drift 15885, gain=-724044, drift 393177, load=783090, cal: -416173, phase=-6841
+station 6: cal: 9140, drift -352468, echo 180084, trim=846207
+station 6: load 872188, trim: -824292, load -714197, bias: 918165, boost=359779
+station 6 check: gain: 9757 load: -6841 drift: 192819 trim=9757 boost 48214 boost=-373796 gain 575412
+station 6: gain=-284993, cal 1895, trim: 775307
+station 1 check: drift 9757, load=-923241, trim: 533137, load=9757, load=-6982, echo=826727, phase 406069
+station 6 check: spike -880274 spike 729102 trim: -6841 gain 400551 cal: -6557 trim=792 trim: 9140
+station 6 report: bias: -606629, boost=-147238, phase=579955
+station 0: gain -872412 bias: -8356 load: -439259 drift=9757 spike: 4202 drift: -88505
+station 0: boost: -408629 trim: 631423 echo=4202 spike -660999 spike 324162 boost: -60107 load: -6557 bias -3907
+station 1 check: trim: -413373 echo=919495 cal=-441569 spike: -392394 spike 792 phase=122203
+station 9: load=8004, trim: 260194, bias 783628, boost=264878, load -287648, bias: -965527
+station 6: drift=109837, cal=-6982, phase 1895
+station 0 log: bias: 34370 bias -8356 trim: -18262 load=-702415 trim: 852205 gain: 269349 trim: 472184 gain -6982
+station 0 check: drift: -804261 boost -297812 drift=-808022 spike -8356 phase -127916 bias=9140
+station 4: boost -688036, phase -78344, drift: 4202, spike 4202, bias: -632841, spike=-907304
+station 6 log: cal=-8356, drift=-3907, cal=830205, bias=181992, drift: -984536, echo: 9140, bias 96711, load: 370596
+station 6: gain: 5828, trim=5828, cal -8356, gain=5828, trim=-3907
+station 6 log: boost: 9757, load=-803750, bias=-514747, gain 319146, trim: 482154
+station 7: gain=-6841, drift: 9757, bias: -785705, load=619156
+station 8: gain -100372 cal=835524 phase -836325 spike: 5828 load=-124955 phase 9757
+station 6: phase 9757 cal=60053 phase: -3907 boost: 82375 phase=-27455
+station 1: bias -3907 cal: -471880 echo 556560 load=3696 drift=5828 echo=-8356
+station 6 report: spike: -380160 bias 191725 gain=9140 trim=-288722 load: 487342
+station 1 log: bias=-6982, cal 742460, load=792
+station 4 report: trim=386168 drift -406586 gain: -306346 load=-274449 cal -8356
+station 5 check: spike 338677 bias -893824 boost 9140 bias=-503529 spike: 834856 phase 249764 boost: 849278
+station 6 check: cal: -965476 spike 701205 gain: 270028 load=-374054 echo=203918 spike 1895 drift: 128939
+station 6 report: bias=217404, boost: -534096, gain: 675071
+station 6 log: drift=-836093 bias: -807955 gain=567322
+station 6 report: trim=-6982, echo=782943, gain 1895, load: -961764, spike=-8356, bias 5828, spike=-989157
+station 6 check: load 5828 phase: -8356 spike=-191680 spike=-3907 echo: -84728
+station 6 log: trim 4202, bias: 585310, gain=-28144, phase: 272746, echo=961255, boost=-767757
+station 8 check: echo 78491, boost=9757, drift -484217
+station 1: echo: 8004, phase=598693, phase -3907, boost: 323305, echo=370819
+station 6 check: gain=-178023 spike -8356 phase: 563161 echo: -38763 drift=616556 boost: 771988
+station 4: drift 541914 trim=648525 phase=-265003 phase: 382504
+station 6 report: gain=-649119, load=755325, bias=9757, load=-245124, drift -673139
+station 6 check: trim 629656 drift 226035 echo: -431632 bias=-428497
+station 3 check: cal 27070 phase 704563 drift=-877412 bias=-750745 gain=9757 bias=427776
+station 1 log: trim=-536246 trim=-989595 gain: -114667 boost: -641244 spike=-461220 gain -964438
+station 6 log: spike -462511 trim=9140 boost=-625076 echo=-214329 phase: -247763 phase: 8004 phase=-6841
+station 6: cal=243221 cal=-6982 spike: -166546
+station 6 report: spike: 213292, phase -6982, cal=267787, echo -8356, phase: -887649, phase: 9140
+station 6 report: trim=-155154, spike: -900055, trim=78189, echo 9140, boost -8356, phase=456748, trim -707091
+station 5 log: gain 542231 echo: 9140 phase=8004
+station 5: echo=743100 phase=958673 bias -94636
+station 0: phase=-6557, boost=608429, bias=-650360, echo -6557, drift -405846, trim=-8356, trim=-8356, gain: -8356
+station 4 log: load=35086, phase: 9757, boost: -3907
+station 6 check: cal -8356 boost: -865584 spike=932914 cal=-885843 spike -371953
+station 6 report: trim -6841, trim=-6841, phase: -819006, drift: -3907, echo 722073, gain -8356, drift=-3907, spike 417452
+station 5 check: echo=-8356, gain=-928430, boost: -500787
+station 5: boost=-383335 gain=9140 boost=938415 bias=814636 load: 944691 bias 37537 phase -8356
+station 6 report: gain=719122, drift: 296013, trim: 792209, drift=-6557
+station 6 log: spike 306847, drift: 5828, load -686702, phase: 986150, cal 633055, gain: -6982, trim: -816403, bias 9757
+station 2 log: echo: -323256, bias: -471581, boost: 514692, gain: -6557
+station 6 check: bias 35176, gain -659959, gain -6982
+station 6 log: drift: -3907 spike=8004 boost=144373
+station 7: cal=-939540, load 999095, bias: -627859, echo=503234, echo=-3907, gain: 699604
+station 3: spike=836949 echo=-32718 echo -6841 trim 513465 drift -3907
+station 9: spike: 792, load=969042, spike=857413
+station 7 check: cal=4202, load -6982, phase 859714, spike: 1895, echo: 298822, cal: 690731
+station 5 report: load=-6841 bias=-6982 spike=-8356 echo -6841 cal -669727 trim 958900
+station 5 log: cal=638282, trim=112497, phase=-810374, cal: -6557, spike: 989632, cal -45423
+station 7: drift -3907 trim 9140 trim=446177 drift 135061 bias 724082 gain=-8356
+station 6 log: trim=-84092, trim: 321162, phase=-6841, boost=475674, echo: -786267, gain -411775, trim: -978139
+station 2 check: bias 792 phase=9140 phase: -8356 trim 726743 trim=173744
+station 6: phase=9757 boost=521426 cal=-6557 boost=-8356 boost=-880893 bias=-326301 bias=-980087
+station 6: boost -524241, bias: 410970, bias=210812, echo: -461907, load: 394259, bias=9757, gain: 268720
+station 6 check: drift: 893822, cal: 532068, bias=5828
+station 8 report: phase=-792114, drift=792, phase=5828, spike: 864218, drift=9757, cal -8356, echo 4202
+station 9 log: cal=-3907 echo: 757979 trim=-139166 drift=-886040 echo=9757
+station 8 log: cal 355546, spike: -808407, bias 632257, drift: -6841, spike=-6841, echo -449465, phase: -8356, boost=719266
+station 6 log: gain=257641, trim 5828, drift=129410, spike: 9757, drift=31
+station 6: echo -597576 drift: -296190 gain=-3907 bias: -3907 cal=-605008
+station 9: echo: -463263, phase: -130051, cal=300209, phase: -318368, cal=-6982, trim=-497942
+station 6 log: gain: 223797 gain: -113919 drift=544350 trim: -201521 cal: 973059 boost 34928
+station 4 report: trim -8356 boost: -6557 load: 4202 bias: -8356 bias: -647792 boost=196749 cal=1895
+station 6 log: phase: -413575 echo: -398694 gain=-883521 echo=563533
+station 6 log: echo: 8004, spike 1895, spike: 83623, spike=51565, echo -637845, trim=-142229, gain: -296378
+station 6 check: trim 792 gain -137779 spike=389753 load 8004 load -8356 trim: -3907
+station 6 report: drift=15103 drift: -904630 drift: 4202 trim -309178
+station 6 report: gain 9757, gain -873626, phase -356438, cal=-380303, drift: 9140
+station 6 check: trim: -960471 gain: 507703 bias=-8356
+station 0: spike: 127545 phase=9757 load=9757
+station 7 log: bias=-469632 phase: -6982 trim: -6841 cal 792
+station 6 check: bias=-8356, phase: 776141, cal: 324558, drift: 892181, trim=5828
+station 1 log: phase=-8356, echo: 737122, boost: -8356, gain 449116, gain=-687526, trim -289124
+station 6: spike: -474352, bias -3907, spike=-968253
+station 3: bias: 887214, phase: -6982, gain=4202, phase=-6557, load=156049
+station 6 log: spike=4202, phase=-897098, gain=-12941, drift=4202, echo=-33596, cal 681058, phase: -609135
+station 6 check: bias=673918, load=-6841, echo -6557, load=-6982, phase -8356, phase -6841, cal=9757
+station 6 log: gain=792, echo 594484, boost=-427706, cal: -142129, spike: -8356, gain: -6982, gain: 1895, gain 570782
+station 4 report: spike=443776 load=-6557 load -777958 cal=8004 boost 301371 phase 857090 cal: 71373
+station 1 report: gain: 4202 load -3907 load: -171306
+station 6 check: bias: -244016 gain: 348485 boost: 830647 boost 284478 load=8004 spike=-8356
+station 6 log: bias=-736841, drift: 623854, spike: 9140, boost=-446967, echo: -8568, drift 185286, bias 414071
+station 6 report: drift: 936394 drift 5828 cal: -39742 drift -658492 gain: 1895 cal=-571156 drift 137319 cal=808505
+station 7 log: bias=-8356 cal 667430 bias: -6557 bias 8004 gain: -667848 cal: -447868 gain: -766933
+station 3 log: echo=5828 drift -8356 echo: -8356 boost: -451206 load -8356 gain=880406 drift: 792 phase -377245
+station 6 check: load 533514 gain 792 cal=-953405 cal -842228 load=-48603
+station 6 check: cal: 933956, echo=-823717, gain -3907, cal=588428, phase: -6982, phase: 792
+station 6: echo -8356, trim 204010, trim -640106, bias 870692, load: 266307
+station 6 check: trim: 9140 spike 111213 echo -3907
+station 6 check: drift -813020 spike: 1895 spike: -3907 trim: -8356 echo: -348870
+station 6: drift 9757 cal -8356 gain: -223217 bias 888584
+station 6: trim -895371 cal=-79385 drift=-8356 load=-190877
+station 6: phase 938920, cal 427824, boost=442064
+station 9 log: spike 20128, echo: -16444, drift=-6557
+station 6 log: drift=-618887 drift=-628560 trim 4202
+station 6 log: boost=-641458 bias=-716804 trim 928244
+station 6: drift -579063, gain: 199577, drift: 187037, boost 8004, cal 86564
+station 6: phase 921999 spike -8356 bias -784713 bias 692627 echo: -64573
+station 6 report: cal: -6557, spike 1895, load: 1895, spike 914662, drift=158162, cal: 8004, phase=792
+station 6: gain=-8356 bias: 298432 load -8356 gain 411375 boost 9757
+station 6 check: trim: -165327, bias=-444262, gain=-6557, spike=-663397, echo 969144
+station 6 log: spike=792 spike=-691402 echo: -6557 drift=-6982
+station 1 report: cal=-779000 cal: 1895 trim=483493
+station 6 report: echo=-6557, boost=-6557, load=-29904, trim: -6557
+station 6: trim -847552, drift=135174, cal: 26555, gain=-487317, gain -515078
+station 7: spike -807453, spike: 232975, bias=382702, drift=-6841, cal 416628
+station 8 check: phase -8356 echo: -264694 drift=792 echo=-8356 bias=38372 bias=-268254 echo: 197263 bias 5828
+station 1 check: gain: 853756 boost=-592870 cal 528038 phase -89218 load=-153143 bias -8356
+station 6 report: gain=-158118 spike: -8356 trim=9757 gain: -8356 load=-162243 spike: 998965 spike=-6982
+station 6: drift=168252, load 1895, load: -6841, bias -6982, echo=344372, boost: -181915, cal: 1895
+station 6 report: cal: -6982 echo: 9140 echo=481078 bias -560680 cal -8356 cal: -6557 bias: -865443
+station 6 check: bias 817784, spike -47063, load=-844093
+station 6 report: boost 362358, boost 212826, trim: 527859, load: -360299, drift -583858, spike=792, bias=334795, echo=5828
+station 6 log: gain=-168573, drift: 792, gain=-670534, phase: 9757, trim=792, boost 723538, drift: -8356
+station 6 check: gain -475292 load=-6557 load=-244709 trim -6841 load: -6557
+station 6 check: drift: 671003, phase=58002, load -83058, spike: -944969
+station 6 check: drift=-981162, cal=-978795, trim=4202, gain=420448, load: 98150, load -8356, boost=141281, cal 47808
+station 6 report: cal=424205, load: -75810, echo=14696, trim -282542, drift=-6557
+station 2 check: echo 307756, echo -6557, gain: 9140
+station 6 check: trim 885915, drift 292275, drift=4202, echo -407869, load=9140, cal: 365453
+station 6 report: spike: 792, drift: 360075, spike -8356, gain -311912, phase 17176
+station 6 log: boost: 438391, spike=-902365, bias -649628, gain: -238645, drift=285998
+station 9 log: drift=-610147 bias: 540599 spike 611510 phase: -6557 echo=579706 spike 5828 spike=-8356
+station 6 log: trim: -459932, trim=1895, cal: 100894, phase 451271
+station 6: cal=-6982 cal: -6982 phase=746015 gain=-691018 echo=-8356 bias=4202
+station 5 report: boost: -90876 phase 5828 echo: 47846 echo: 671759 bias=-646115 cal -3907 boost 874313
+station 1: load=-188680, phase -8356, echo -770861
+station 1 log: echo: -897687, phase: -736809, boost=223169, boost -6841, drift -6841, drift=-987880, gain=-6841, cal=9757
+station 6 log: drift=8004, drift=792, trim: -6557, spike 4202
+station 6 report: boost -477862, phase -22414, spike: 830389, boost=4202, spike 5828, trim=539766, phase: 214520
+station 6 log: gain: 291966 load: -880371 load: -8356
+station 6 check: bias -8356, drift=-892999, spike -974223, spike -792579, bias 1895, gain: 266515, echo 213280, phase: -3907
+station 6: spike: 756352 load: -8356 bias: 468137 spike: 485776 gain: -753002 cal 297739 gain=486619 spike -6982
+station 6 check: drift 1895 bias: 9140 cal 281219 boost: 792 boost=9140 boost=8004 trim: -907352 spike 329594
+station 4 check: cal: -6841, drift -6841, boost 9140, trim: 9757, boost=-3907
+station 6: load=-6982, cal: -118153, spike=-949812
+station 6: echo: 9140 trim: -170892 cal: -3907 spike 953991 spike: -466728
+station 2: drift=281732 boost 700863 load -673186
+station 6 check: gain: -894545, drift: 4202, bias=-8356, gain -752349, gain 9757, gain -134183, drift -8356
+station 6 check: cal: -251893 boost=-3907 boost 1895 gain: -8356 spike=854650 boost=-294918 load -3448 boost 164074
+station 6: echo: -3907 phase: 52013 cal: 197201
+station 6: boost=-6557 spike: 660480 trim: -3907 drift=-621838
+station 5: bias: 775403, echo=8004, gain 430559, phase: -737192
+station 8 log: drift=257318 gain=-108158 trim 348413
+station 6: drift=-592473 boost 557382 spike -3907 load: -8356 boost=-996623 bias -266645 drift: 372193 load 792
+station 6 check: gain=-998220, load -6982, echo=-8356
+station 8: phase 414479 trim: 765789 cal: 427509 trim -679647 gain 49996
+station 2 report: drift=-731144, drift=-323810, boost 792, cal=-685960, bias=165819, cal=665627, echo -305710
+station 9 report: drift=-245830 cal -810171 spike -6982 phase: 209662 bias=-500925 trim: 5828 bias=217521 bias 863867
+station 6: load: -3907 load: -6982 load: 777075 echo: 161687 cal: 429668 trim=5828 trim 4202
+station 0 log: bias -862782, drift=-8356, drift: -235091, gain: 8004
+station 6: cal=-410872, cal: -200861, trim=761551, trim -66472, bias 943620, boost=-267002, gain=118001, drift: -779170
+station 4 check: phase -695532 trim -6841 boost 33330 trim -131509 cal: -488146 echo: -3907 drift -354120
+station 3: bias 949431, bias: 885255, spike=288952, bias 196232, boost -543780
+station 6 log: echo: -8356, spike -422560, spike: -161838, echo: -855789, echo -200617
+station 9 check: phase=266457, gain: 5828, trim 4202, drift 8004, drift 679114, load=86228, echo=-914403
+station 0 check: boost: -957610, trim -413366, spike -838430, trim=5828, phase=266854, cal: 148715
+station 0 report: drift=822756, spike 5828, drift: -244788, phase=-627860, spike=366518, boost: -895374, spike: -730246, trim=-143864
+station 6 log: drift 659936 cal=-831173 trim -8356
+station 1: echo: -594932, drift 1895, phase: 52730, drift: -633411, spike -6841, boost -172229
+station 6 check: drift=-385313, phase=-829311, boost 8004, drift: 1895, drift: -766338, spike: -856606, gain=-8356
+station 6: cal -8356 gain=-95051 boost 587839
+station 5 check: bias=619035 gain -8356 phase 610005 echo=433440 trim: 821492 echo -8356 cal=151512
+station 4: spike 123668 cal=-8356 echo 431471 echo -737707
+station 1 log: bias: -835779 bias: 971172 echo -109433 drift: -8356 boost=124286 spike -803940 cal: -105460 cal=485938
+station 6 check: drift: 410762 drift 350406 boost=1895 echo: -553666 cal: 1895 trim: 5828 spike: 4202 load=-6557
+station 7 log: bias: -194979, cal 4202, phase: 9757, gain 806134, spike -237970
+station 6 check: spike=679205, drift: -978391, echo: 607019
+station 5: bias: 723266 phase=810425 cal=140302 load=792 trim: -129305 echo -6557 trim 97668
+station 2 check: load=-6841, spike: 748773, spike: -6982, spike 9140, boost -3907, trim: -448949
+station 9 log: echo 9757, cal: -448795, spike: -101205
+station 8 report: boost=835037 load=217100 echo: 134376 trim: -479470
+station 8 report: spike=-464765, bias=144283, load=-346108, phase -3907, echo: 9140, bias: 22818, trim=-6841, gain: -3907
+station 6 check: load 88119 echo=491883 echo: -985059 spike: -6841 cal=9140 spike 260600 gain -586244
+station 6 check: echo: 9140, trim: -23537, gain=-441764, echo: -6841, boost: 9757, phase: -3907, load 187790, gain -3907
+station 6: echo=5828 spike 667533 trim=-207041 phase: -476148
+station 6 report: bias: -574579, trim=9757, bias 127229, drift -868908, gain: 184348, trim=-6982
+station 3 report: load=1895 cal: -6982 spike=-8356 gain=417726 phase=-933052 bias=804005 trim 804676 bias=1895
+station 6 check: phase=507137 bias 8004 cal: -791887 phase -839107
+station 7 log: bias: 1895, gain=-685715, drift: -104355, boost=9757
+station 8: echo -247130 trim=72968 echo -8356 boost=-747030 trim 769863
+station 6 check: gain 21532 cal 8004 drift 792 gain: -8356
+station 2 log: trim=-977970, load -715029, bias: 648796, boost: -223567
+station 6 log: echo: 499111 boost: -46597 phase: 9757 spike=4202 boost=-3907 spike: 35760 echo 261606
+station 6 report: bias 9757, bias=9140, echo=635930, drift=-8356, load=-295216
+station 6 log: drift 792 trim: -8356 bias: -247070 trim: -507099 load=9757 gain -3907
+station 6 report: echo=534926 phase: 714827 boost 8004 phase=667632 load 74785
+station 4 report: phase=792, trim: -792349, spike: -222741, load=807354
+station 6 log: spike -8356 gain: 44499 bias -105046 trim=512653 boost=-3907 bias=4202 load=472901 echo: 9757
+station 2 check: drift 938234 drift -8356 load: -413033
+station 8: spike: 5828, gain: -493629, drift 810924, bias 9757, echo=-472193, gain -761187, trim=324937, drift=589083
+station 6 check: phase=804507 spike=-3907 spike=21440 trim -956723 echo -6557 trim=-490613 drift -8356 gain: 5828
+station 3 log: gain 421248 bias: 768017 drift: -6841 boost -966019 cal=4202 echo=244914 boost=-357667 bias -582702
+station 6 report: load -783333 echo -84120 gain=-520343 echo=-912436 cal: 108441
+station 6 log: boost=5828 spike 4202 phase=-848443 bias: 831278 phase=406515
+station 6 report: drift: 316748 trim: 578630 boost=-8356 spike=9140 load: 284959
+station 6: trim 571919 cal: -620086 phase=-954605 bias: -8356 phase=-135354 trim -8356 drift=4202
+station 6: drift=-6557 spike -6841 spike: 457050 bias: -697991 load=4202
+station 4 log: trim: -6557, load 205269, bias: 458166, boost=-6557, load=442857, phase -854931, boost=-8356
+station 4 report: spike: 734287, boost=-487760, phase=5828, gain=42201, bias 964457, echo -299384, phase 792, spike 1895
+station 6 log: echo -748610 phase=-658980 trim=-759138 echo: -8356 boost: -951096 gain -8356
+station 6 check: boost=-936653 bias=-6557 gain=-8356 boost: 9757 trim=339261 phase=5828 echo -6841 spike 9757
+station 6: spike -403202 bias 651836 echo: -8356
+station 5 log: spike=801553 boost -162208 echo: -988161 phase: 792 echo -489204 phase: 1895 bias=922245
+station 6: load=-8356, boost 9140, spike=-138094, cal=629500, echo=4202, drift: 676480
+station 6: boost -109284 bias: 226221 phase: 9757 load=-863570
+station 6 log: trim 695680, drift=366106, echo=30492, phase=-6982, cal=-771856, echo=4202, gain=-3907, trim: 362413
+station 6 check: trim -46759, drift 816459, cal -3907, cal -6982, boost=-485487
+station 6: drift: -926075, load: -8356, phase=-924530, load=-6982
+station 2: gain: -425544, bias=9757, drift=-906355, drift=-159560, gain=790066, cal -8356
+station 6 report: boost=261347 trim: -557839 drift -643393
+station 1 check: gain=-744705 phase=-650418 gain=-740360 boost=1895 spike=-6982 phase 1895
+station 6 log: echo=9757, spike=35177, phase: 842616
+station 6: bias: -27890 load 792 spike -322043 echo 8004
+station 3 check: spike: -902017 phase=-6841 cal=450576 phase -365852 phase=-227768 cal=-454298 boost: 8004 phase: -306102
+station 6 log: trim 767522 drift: 928509 cal: 907785 spike: 240161 cal: -8356
+station 6 log: trim: 818713, spike: 792, gain -8356, drift: -861947, phase 4202, load 562892, load=362824, boost 776407
+station 8 check: trim 502541, boost=-158201, trim: 871100, trim=405836, boost -6841, echo: 857707, drift: 9140
+station 6 log: drift 8004 spike: -168243 echo 792
+station 1 log: boost=-880481, gain -8356, phase=37007
+station 6: bias: 317247 gain 257473 bias 1895 boost -3907 load 976384 spike=-6841
+station 6: echo: -8356, cal=-712851, load -100321, phase=4202, trim: -185490
+station 6: echo=-162926, load=886286, drift=792, boost=1895
+station 6: spike: -908252, cal: -163150, trim: -8356, load 477479, echo: -3907, cal: 884084, spike: 865349
+station 6 log: trim 5828 echo: -6841 cal -908816
+station 6 report: drift=9140, trim=265820, cal: -6557, cal=-8356
+station 6 log: trim: -8356 gain=4202 drift=-230115
+station 2 log: cal=492067 bias 9757 trim: 242903
+station 6: load: 7022, gain 9757, load: -259166, trim: -440616, echo -6982, boost -734599
+station 9: cal: -554284, echo=-203513, gain=521716, bias 596224
+station 6 log: boost=5828 spike=419119 bias 219717 trim=-8356 drift -6982
+station 6 check: bias 995046, cal: -8356, boost=928111, echo -247236, echo -6841, echo -8356, drift: 138371
+station 1 log: gain=983576 boost -8356 trim=-8356
+station 6 log: trim=-185128, boost=-6982, bias: -6557, load -672784, trim -376564, phase=4202, phase=5828, spike: 820643
+station 6 log: drift=482647 gain 963331 load: -206171 echo: 845840
+station 6 log: gain 883543, gain=-420078, gain -8356, cal=-820988, boost 399914, spike -6982, drift -6557, load=8004
+station 6: phase: -6557, boost: 872468, drift=426886
+station 6 report: load=792 cal: 190738 spike: 8004 trim: -45040 spike -653505
+station 6 check: load=-988757 trim: 792 spike 285654
+station 0: phase: 1895, phase 880581, gain=15932, load 529416, drift=-504155
+station 6: gain 792, bias -381177, echo: -8356
+station 8 log: phase 969737 gain 8004 drift: -8356 bias=59313 cal=-204248
+station 6 log: gain=367190, gain: -800057, drift -764113
+station 6 log: gain=-8356, phase: -957994, phase 8004
+station 4 log: drift -802233, cal: 507386, cal -212582, load 1895, drift: 193361, boost: 419218, spike=-245318
+station 6: boost 373438, spike=-232452, drift -648219, echo -220994, drift=122, spike -8356, spike=988734, gain: -715541
+station 6 check: phase 792 bias: -8356 gain 9757 gain=8004 bias 974398 drift 696051 cal=9757
+station 6 check: bias=916358 trim: 792 spike=-40116 spike: -67887 spike=502123 cal=210621 spike=-6841 cal=-599344
+station 6 check: gain: 808665 load=789518 load -511963
+station 6: boost=-56908, cal -8356, drift=-6557, phase 638777, bias=-6841, drift 423684, spike=111596
+station 6 report: drift: 296533 drift=789235 spike: -8356 trim: -700852 phase=944978 echo: 9757 load=-243961 echo=755851
+station 6 log: load: 442394, echo -438892, drift=-758513
+station 2 check: phase: 1895 spike 704715 spike=8004 trim: 531769 phase 5828 gain: 482207 boost 464077
+station 6 report: phase: 594610, bias: 9757, spike: -660161
+station 6: echo=88708 phase=4202 drift -6557 bias: 280377 load: -8356 trim: 428906 load: -529671
+station 3 check: cal 832976 load=792 cal=-134033 trim 1895
+station 6: echo 616552 trim=-6982 spike=-817657 load=582077 echo: 1377 echo=976829 echo: 708800 gain=-8356
+station 6 report: bias: 289596, load=-468907, spike: -6982
+station 1 check: load=-768009, gain=-97333, drift=-6841, boost: 9140, phase=-282418
+station 6 log: trim 442104 load=9757 trim=-701057 boost -967692 bias 294087 load -6557
+station 4 report: drift=792, gain=-999760, drift=-6841, echo=326273, boost 506610
+station 6 report: cal -131177 trim: 486706 drift: 824998 trim: 624884 bias=-116443 echo=5828
+station 6 log: boost: -935178 load=1895 bias 11316 phase=-245873 boost=234939
+station 6 check: cal: 792 echo=-966650 trim 344127 drift -84589 spike 8004
+station 6 check: phase -6982 bias: 845158 echo 806175 drift -72766 drift: -316186 cal: -6841 bias=508807
+station 6 log: bias -744947, bias -798707, gain: -140839
+station 8 check: echo 4202 bias: 540182 gain=-229172 phase: -389918 boost -614594
+station 8: trim 357526, drift: 1895, cal: -538310, bias 681797
+station 0 report: cal=-8356 gain: -430716 phase=174902
+station 0 log: load -3907, trim: 8004, drift: 888779
+station 5 log: trim: 543729, echo=346892, trim -8356
+station 3: load 792 drift=4202 phase -6557 cal -152544
+station 7 log: cal -84865 gain -92770 cal=-798091 load: -6982 trim 531937 spike=-617309 echo 70367 echo: -9935
+station 8 log: load=555513, cal 4202, boost=913197
+station 6 check: gain: -6982 load: -403752 load: 893323 phase 5828 spike: 792 drift=1895 cal: -472576 bias=214464
+station 6 report: spike -474166, bias: 22520, bias=284082, load 8004
+station 6 report: echo: -3907 boost: 4202 echo: 792
+station 6 log: spike=519151 echo=429986 drift -6841
+station 6: gain: 597994 load=-465529 load=-145548 boost -3907 echo=-8356 gain -876424 cal 262100
+station 0 log: cal -274829 phase 570568 trim: 9140 cal -31158 spike: 792 bias 425659 phase: 1895
+station 9: cal 930590, drift=-270130, spike: 448922, gain: -155743
+station 8 report: drift -8356 echo: -8356 spike 467302 boost: 527110 gain 9757 cal: 672877 bias 8004 echo=-609601
+station 8 report: cal: -984717, cal=418527, spike: -8356, spike 747129, spike: -3907, phase -752217, cal: -8356
+station 0 report: cal=-336420 phase -478062 drift=786600 cal 4202 spike -437577 boost 9757 spike=900979 trim=822187
+station 6 report: bias=195322 load=511847 spike=657426 bias -940815 load 844082 bias -8356 drift=443286
+station 7 log: boost=1895, boost: -8356, spike -566202, trim: -8356, bias: 864707
+station 3 log: boost -915247, trim -8356, echo: 4202, drift: -6982, echo: -643657, drift=-834937, load: -410304
+station 6 log: gain=696899, phase: -6982, trim 380348, echo=-6982
+station 8 log: load=-501612 load -542209 drift 9757 trim=238827
+station 3 check: gain=-994924, cal: 792, gain=147388, spike 4202, cal: -8356, drift=321687
+station 9 check: phase: -216161 spike=-89890 phase 153144 gain -954398
+station 9 report: load 484303, phase -364719, trim: -584053, trim: 5828, drift: -241013
+station 6 check: echo=-8356, trim=-6982, phase: -6841
+station 2 report: drift=456550, load=-798143, bias 621682, bias -6841, phase: -202742, cal: -507826
+station 6 check: echo: -325609 spike: -8356 spike -601798 drift=865826 gain: -8356 echo: 71387
+station 9 report: spike -325336 phase: 850996 drift=198461 phase=653047 echo -126680
+station 6 log: echo: -3907 cal=-8356 phase 8004 phase: -6982 drift: 101336 bias=-220142 cal: -258037 trim=-575722
+station 6 log: gain: -874419, load: 1895, drift 1895, echo 9140
+station 2 check: gain=-53321, gain: -8356, gain 9757, drift: -369704, boost 944907
+station 6: echo -253803, spike -6841, load: 662632, boost: 248101, drift: -6982
+station 2 report: phase: -8356 echo=-916996 bias: -8356 cal=-160410 cal -986580 gain=-662509 phase -6557 gain 761950
+station 6 check: cal=534152 cal=-46606 bias: 744381 boost=-184167
+station 6 report: trim: -946124 echo: -334925 spike 9757 boost 4202 echo: -66994 cal=842494 drift=831679 load: 9140
+station 7 log: load: -3907 boost -6982 drift 983018
+station 6 report: boost -8356, boost=-199397, cal: 5828, boost=-8356, gain=-547211, bias=665416, phase 11231
+station 6 log: trim 8004 trim=-565732 boost=-8356 load: -327920
+station 6: phase: -6841 cal: -8356 trim=-701330 cal: 534540 trim 5828 spike: -850442
+station 9 report: boost=940905 cal=-126050 drift: 196902 bias=423418 bias: -304334 gain: 771086
+station 0: gain: -8356, boost: 196473, load=5828
+station 5: bias=-962303, drift=5828, gain=-414174, boost=-8356, trim=380177, drift: -91872, trim: 824483
+station 0 report: trim -157522, load 5828, echo -3907, bias=-8356, drift -547482, boost: -808438, trim: -455460
+station 9 log: spike=4202 drift=9140 echo: -8356 gain=698161 load 1895 cal 309108 load 523753
+station 6 check: boost -210112, boost=-474990, boost=-882418, load=-268750, boost=755710, load 1895, boost 130217, cal: 9757
+station 6 log: boost=-985413 bias=-313583 drift: 608678 boost: 9140 echo=901760
+station 1 log: boost 133910 load: -229865 bias 992775 cal=-433397 bias 4202 drift=239616 load: -3907 cal=740934
+station 2 check: bias=864472, echo=226184, echo=-382899, boost -428628, echo: -75587, load=-548447
+station 6: echo: -6841, boost=737056, phase: -409063, phase=810696
+station 6: trim=4202, phase=-36472, cal=9140, trim -8356, boost: 254893, cal 792, cal: 770621
+station 0 report: spike=-558113, cal 201640, gain 744506, load: -785143, gain: -963318, drift: -8356, drift 723626
+station 0: spike=-8356 spike: 546354 trim=-8356 drift: 674580 gain=291343
+station 6 log: echo: 792 spike: -3907 boost -495115 gain: -763606 boost: 939538 cal=9757 echo=9757
+station 2 check: load: -6557, cal=610818, boost -103773, boost -642559, bias -819951, gain=-6982, gain: 9757, drift=-630346
+station 2 check: cal 696518 load=-3907 spike=5828 trim 792 gain 274343 load -8356 gain: -56594 gain=792
+station 6 log: echo 561196 echo=9757 gain -946721 drift: -8356 bias -6841
+station 6 check: bias 263395 boost=9140 echo 838909 boost: 792
+station 6 report: spike -768204 bias -842941 boost 464315 spike 904932 phase 844199 phase 727872 gain=-913029 trim=4202
+station 6 report: gain 933402, spike: 686166, load: 126210, trim=-144793, load=638619
+station 9 log: trim: -535625 cal=1895 boost: 821218 phase 23630 boost=9140 drift: 1895 load=636189 gain: 9757
+station 6 log: spike=5828 phase: 329910 cal 655654 echo=9757
+station 6 log: boost -8356 load 8004 gain -6557 phase 616544
+station 6 report: load -421898 bias 299696 cal: 989349 load 5828 echo=-6982
+station 1 log: trim: 416599, spike=287531, boost=8004, boost 750260, drift=338631, phase: 555947, phase: -659990
+station 6 check: bias 785886, load 411656, cal 306313, cal 30243, boost -234711, load -3907, gain -349008
+station 6 report: echo=871640, load: 676207, echo: 446448
+station 3 log: drift=-602398 trim -3907 load 8004
+station 6 check: spike=386425, cal -247062, gain: 169999, boost -571143, echo=613941, echo=-874352, gain 515383, cal: 891933
+station 9: drift: -616275 bias=-3907 drift 459613 cal: 529877
+station 6: gain 990555 drift: -34798 bias=-36531 bias 9757 trim 792 cal=-800656
+station 9 log: spike: 641579, trim: 420495, trim 715217, load=-34722, load=-672140, load 416855
+station 6 report: spike: 9757, cal: 547965, phase 792, spike 430711, phase=792
+station 6 check: echo: -8356 load -6557 bias 627194 boost -8356 drift 40106 spike: 82202
+station 6 report: gain=-8356, trim=547421, cal -397, spike: 128532, gain: -6557
+station 9 log: cal 8004, phase: -834041, cal=-91013
+station 6 check: load=5828, drift -8356, cal=157340, gain: -653183, phase=8004, bias=792
+station 4 log: load: -239066 bias: -177601 phase: -6841 phase -191155 cal 107163 phase: 4202 trim -50698
+station 6 log: cal=828989, echo=717689, bias: 9140, load: -288885
+station 6: phase=-344289, drift: -474279, trim: -228886, echo 224428
+station 2: drift=-531574, spike=616199, load=-789623
+station 8: boost -338384 bias=-8356 drift=-887709 gain=-3907
+station 6 check: phase=-492611 load: -708859 echo=-163442 phase: 9140 gain=621606 spike: -628612
+station 5 log: drift=-720241 gain -803766 echo=-6982 drift=366187
+station 8: gain: -595373, bias -328760, drift=269070, echo: -3907, gain: -8356, drift -222710, spike=-24662, echo: -6841
+station 8 report: bias: 837657, gain 792, boost -269419, phase: 873499, gain -212595, boost=-6557
+station 6 log: bias: -8356 trim 4202 boost: -794023 spike -502967 phase: 81243
+station 7 report: trim: 9757, echo: 9140, cal 392890, load: 339348, echo=751514
+station 6 log: phase 997212, drift: 404150, phase: 911642, boost: 9140, echo=5828
+station 3 log: gain -703874, gain: -378144, bias 288599, echo=-107630, spike=-8356, bias=5828, bias 161013
+station 6: boost: 109452 bias -3907 spike 374145 bias=663964 load=-4537 echo: -6841 cal 769039
+station 5 log: drift: 8004 boost: 826667 boost=271224
+station 6 report: spike=8004, spike -8356, cal: -963228, load 129953, echo=-297417
+station 8: echo: 9140, boost=-6841, spike: 1895, cal=-172889, load=-3704, spike -770333, boost: 5828, load 948928
+station 9: phase: -145707, bias 567545, boost 296716, load: -781307, spike=-999780
+station 6 log: spike=4202, bias: -8356, load=8004, phase 940432
+station 6: load=5828, echo -214456, gain=-485840, spike 43919
+station 6 report: spike 93179 trim -222928 spike 968130 boost -6557 spike 8004 trim: 314592
+station 1: echo=-6557 load 27841 load: -948197
+station 6: cal: -871909 bias=-8356 cal: -822134 drift: -3907 spike: -822345 gain: 554527 drift=-505503 bias: 1895
+station 6 check: gain: -8356 drift: -6982 bias=5828
+station 4 report: cal=1895 gain=-405101 trim: 460127 boost -6841 drift 1895 gain=976058 trim -3907 phase=463307
+station 8: cal: 1895 boost -202141 cal 747772 trim 377269 load 540741
+station 1: trim 775632 boost: 480562 gain=440731 echo 611388 phase=-851205 phase -6982
+station 6 report: spike: -6841 phase 526587 drift -3907 trim 429727 trim -977624 boost=5828
+station 8: trim -592048 echo 835145 bias: -8356 gain 523330 spike -621802 spike=-680838 gain 1895 trim=281486
+station 6 check: load=-836007, echo: -6841, bias=-990967
+station 6: phase=-657445 load: -605679 echo: 488292
+station 6 check: load -8356, trim -6841, gain: 203501, echo: 1895, spike: 8004, drift=9140, bias: -187764, bias: 402857
+station 1 log: load: 566801, boost -116497, phase: 9757, gain: -310439, boost 559916
+station 6 check: echo: -195642, spike 216386, phase=4202, drift=-8356, spike: 947115, drift 442306, gain 855238
+station 0 check: trim=-259919, boost -783685, bias=836005
+station 6 log: spike=-833161 load=880725 bias: 666631 load=685042 bias: -780181
+station 4 log: load -781438, spike=-3907, spike -44821, trim -802954, gain 9140
+station 6 log: drift: -831995 phase=-8356 boost=429109 boost=4202 phase -90042 spike=570698
+station 3 report: phase: 5828 bias -3907 bias -198462
+station 0: drift=-81006, cal: 871385, cal: -8356, boost 1895, gain -913934, spike: 112989, gain: 37753, bias -585278
+station 2 check: echo: -783199 spike: -6557 load: 288969
+station 6 report: gain=133948, cal=-8356, drift=792, phase: 1895, bias: 4202, boost -458612, boost: 667969
+station 1: gain: 396493 echo: 9140 drift: -562128 load 5828 cal=-691093 bias 9757
+station 6 check: spike: 9757 load=-6841 spike: -379033 phase=-440571
+station 0: gain 237581 phase=-3907 cal: 631057 load 669594
+station 6 log: trim -526253 echo=9140 cal: 729959 echo -663998 cal 293210
+station 6 report: load -6557, load: 58485, load -646698, spike: -6557, cal=752092, echo: -964350, drift=5828, cal -717418
+station 6 report: cal: 508541 gain=-22301 spike -6557 gain 9757 cal: -8356 load 423907 phase 1895 drift: -888020
+station 8: spike -961661 drift: -8356 gain=-707565 spike -6557 cal: 8004 phase: -6982
+station 5 report: spike 139023 gain=-6982 boost: 603985 spike=-3907 trim 382494
+station 6 check: trim: -583136 load -677040 boost=8004
+station 6 log: boost 300447, phase -872614, trim: 780784
+station 7 log: bias: -3907, bias: 202206, phase 762111, phase=-947233, phase 88939, echo: 5828, trim -6982
+station 1: gain=847474, phase: 8004, drift=-395139, echo -478271, spike=9757
+station 6 log: drift: 4202, trim=-329566, trim 792, phase=822546, drift 178199, phase: 285127
+station 0 report: boost: -8356 gain 429924 boost: 584414 boost 504589 echo=16217 trim 77067
+station 7 log: cal: 458067, gain=71324, boost: -784536
+station 6 check: trim -193163 drift 103173 load=187148
+station 6: cal: -8356, bias 472803, gain: 2597
+station 1 report: trim: 8004 echo: 4202 boost -50274 bias -8356 cal -6557 bias -8356 cal=-313865 load=1895
+station 6: load=-381632, boost -6982, boost 9140
+station 3 log: gain=-875608 cal=-21162 boost -8356 load 1895 boost=-8356 trim: 228806
+station 6 log: echo 513898 boost: -3907 boost: -995305 load 443706 phase=-380465 trim=273847 echo: -599404
+station 6 log: load -548158, boost -8356, boost: -792504, cal -6557, phase: -579444, trim 9140
+station 6 check: load: -933964 phase -664110 cal: -569506 gain: 792 drift 5828 bias 352931 drift=262685 bias: 18958
+station 6 log: boost -8356 trim 355071 echo=397457 drift -6557 load 256432 spike=-8356 load=8004
+station 6 log: trim 887729, cal: 791647, boost 893049
+station 6 log: boost=-920715, cal: -6841, spike 787678, gain=-618727, boost: -403631
+station 6 report: cal -8356 bias 481854 trim=-8356
+station 7 check: cal=792 echo: 280135 load=-803130 bias=-648736 gain: 143666 boost: 5828 gain: 946092 drift=393614
+station 6 check: echo=656497 bias: 9140 load: 62293
+station 7 check: bias: -832653, gain -589304, phase: -487777, phase -28852
+station 6 log: bias=-593830 spike 282861 load 5828 drift=-6841 drift: 16909 boost: 551559 boost: 267810 bias -54912
+station 3 check: cal 9140 cal 733089 boost=-937762 load=-8356 bias=-323020 drift -8356 gain: 20238
+station 6 log: drift: -782527, cal: 9757, phase=-12994, phase: -8356
+station 8: gain=713651 bias: -8356 cal: -851528 bias: 792 bias=-8356 gain 9140 drift: 840471
+station 6: phase: 4202 bias: 825855 trim: -655326 drift=198032
+station 6: bias=1895 boost=9140 trim: -840012 trim 9140 gain: 3323 boost: 4202 echo 822168 phase: -145959
+station 6 log: spike 792 trim=-6841 spike: 999310 trim: 792 cal -811862 load=-710188 bias=-6841
+station 6 report: drift=-46373 trim=-8356 trim: -564796 spike=802740 boost 1895 boost 265612 bias: -6841 echo=-823854
+station 8: drift=-927471, boost -3907, boost: -117316, load: -488119, spike=-313022, gain=9140
+station 6 report: cal=803700, boost=1895, phase=-743057, bias=-6982, boost: 8004
+station 4 log: boost=5828 gain=-930823 cal: -481750 boost 720209 trim -284850 phase 9757 bias: -6982 echo=536807
+station 9 report: cal: -322994, cal 792, spike=-223460, load=504481, bias=-914357, load: 8004, boost=886306
+station 4 check: gain=-954892, phase -3907, echo=803090, phase 722511, cal: 5828, spike 485361

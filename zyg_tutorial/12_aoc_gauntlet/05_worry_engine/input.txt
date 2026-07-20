@@ -1,0 +1,55 @@
+Machine 0:
+  items: 57, 44, 31
+  op: old + 7
+  div: 19
+  true: 3
+  false: 7
+
+Machine 1:
+  items: 56, 69, 34, 53
+  op: old + 3
+  div: 7
+  true: 6
+  false: 4
+
+Machine 2:
+  items: 88, 5, 90, 72
+  op: old * 13
+  div: 13
+  true: 0
+  false: 5
+
+Machine 3:
+  items: 4, 59, 80, 53, 39, 33
+  op: old * old
+  div: 17
+  true: 7
+  false: 5
+
+Machine 4:
+  items: 20, 35, 33, 57, 51
+  op: old + 7
+  div: 5
+  true: 2
+  false: 6
+
+Machine 5:
+  items: 74, 53
+  op: old + 7
+  div: 11
+  true: 6
+  false: 2
+
+Machine 6:
+  items: 63, 20, 44, 50
+  op: old + 2
+  div: 3
+  true: 2
+  false: 7
+
+Machine 7:
+  items: 10, 39, 70
+  op: old * 11
+  div: 2
+  true: 4
+  false: 1

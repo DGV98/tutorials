@@ -1,0 +1,22 @@
+{
+  "name": "ts_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "watch": "node scripts/check.mjs --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
+  }
+}

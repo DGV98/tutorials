@@ -1,0 +1,20 @@
+Machine 0:
+  items: 5, 11
+  op: old * 3
+  div: 2
+  true: 1
+  false: 2
+
+Machine 1:
+  items: 7
+  op: old + 4
+  div: 3
+  true: 2
+  false: 0
+
+Machine 2:
+  items: 2, 9, 6
+  op: old * old
+  div: 5
+  true: 0
+  false: 1
