@@ -7,8 +7,8 @@
  *
  * Then run it:  npx tsx lessons/07-deriving-types/exercises.ts
  */
-import type { Expect, Equal } from "../../helpers/type-assertions"
-import { check, summary } from "../../helpers/test"
+import type { Expect, Equal } from "../../helpers/type-assertions";
+import { check, summary } from "../../helpers/test";
 
 // ---------------------------------------------------------------------------
 // Exercise 1 — One source of truth.
@@ -22,19 +22,20 @@ const defaultSettings = {
   theme: "dark",
   fontSize: 14,
   autosave: true,
-}
+};
 
-type Settings = {
-  theme: string
-  fontSize: string
-}
+type Settings = typeof defaultSettings;
 
 function describeSettings(s: Settings): string {
-  return `${s.theme} @ ${s.fontSize}px`
+  return `${s.theme} @ ${s.fontSize}px`;
 }
 
-type _e1 = Expect<Equal<Settings, typeof defaultSettings>>
-check("settings describe themselves", describeSettings(defaultSettings), "dark @ 14px")
+type _e1 = Expect<Equal<Settings, typeof defaultSettings>>;
+check(
+  "settings describe themselves",
+  describeSettings(defaultSettings),
+  "dark @ 14px",
+);
 
 // ---------------------------------------------------------------------------
 // Exercise 2 — keyof and indexed access.
@@ -47,21 +48,21 @@ const httpConfig = {
   baseUrl: "https://api.example.com",
   retries: 3,
   verbose: false,
-}
+};
 
-type HttpConfig = typeof httpConfig
+type HttpConfig = typeof httpConfig;
 
-type ConfigKey = "baseUrl" | "retries"
-type RetryCount = string
+type ConfigKey = keyof HttpConfig;
+type RetryCount = HttpConfig["retries"];
 
 function readConfig(key: ConfigKey) {
-  return httpConfig[key]
+  return httpConfig[key];
 }
 
-type _e2a = Expect<Equal<ConfigKey, "baseUrl" | "retries" | "verbose">>
-type _e2b = Expect<Equal<RetryCount, number>>
-check("reads retries", readConfig("retries"), 3)
-check("reads verbose", readConfig("verbose"), false)
+type _e2a = Expect<Equal<ConfigKey, "baseUrl" | "retries" | "verbose">>;
+type _e2b = Expect<Equal<RetryCount, number>>;
+check("reads retries", readConfig("retries"), 3);
+check("reads verbose", readConfig("verbose"), false);
 
 // ---------------------------------------------------------------------------
 // Exercise 3 — as const + T[number].
@@ -70,17 +71,17 @@ check("reads verbose", readConfig("verbose"), false)
 // the derivation produce the literal union. Don't touch the Alignment line.
 // ---------------------------------------------------------------------------
 
-const ALIGNMENTS = ["left", "center", "right"]
+const ALIGNMENTS = ["left", "center", "right"] as const;
 
-type Alignment = (typeof ALIGNMENTS)[number]
+type Alignment = (typeof ALIGNMENTS)[number];
 
 function formatAlignment(a: Alignment): string {
-  return `align-${a}`
+  return `align-${a}`;
 }
 
-type _e3 = Expect<Equal<Alignment, "left" | "center" | "right">>
-check("three alignments exist", ALIGNMENTS.length, 3)
-check("center is valid", formatAlignment("center"), "align-center")
+type _e3 = Expect<Equal<Alignment, "left" | "center" | "right">>;
+check("three alignments exist", ALIGNMENTS.length, 3);
+check("center is valid", formatAlignment("center"), "align-center");
 
 // ---------------------------------------------------------------------------
 // Exercise 4 — keys AND values from one const object.
@@ -93,15 +94,15 @@ const STATUS_LABELS = {
   draft: "Draft",
   published: "Published",
   archived: "Archived",
-} as const
+} as const;
 
-type Status = "draft" | "published"
-type StatusLabel = string
+type Status = keyof typeof STATUS_LABELS;
+type StatusLabel = (typeof STATUS_LABELS)[keyof typeof STATUS_LABELS];
 
-type _e4a = Expect<Equal<Status, "draft" | "published" | "archived">>
-type _e4b = Expect<Equal<StatusLabel, "Draft" | "Published" | "Archived">>
-check("draft has a label", STATUS_LABELS.draft, "Draft")
-check("every status has a label", Object.keys(STATUS_LABELS).length, 3)
+type _e4a = Expect<Equal<Status, "draft" | "published" | "archived">>;
+type _e4b = Expect<Equal<StatusLabel, "Draft" | "Published" | "Archived">>;
+check("draft has a label", STATUS_LABELS.draft, "Draft");
+check("every status has a label", Object.keys(STATUS_LABELS).length, 3);
 
 // ---------------------------------------------------------------------------
 // Exercise 5 — annotation vs satisfies.
@@ -115,15 +116,15 @@ const ROUTES: Record<string, string> = {
   home: "/",
   settings: "/settings",
   profile: "/profile/:id",
-}
+};
 
-type RouteName = keyof typeof ROUTES
+type RouteName = keyof typeof ROUTES;
 
-type _e5a = Expect<Equal<RouteName, "home" | "settings" | "profile">>
+type _e5a = Expect<Equal<RouteName, "home" | "settings" | "profile">>;
 // This one already passes — and still will after your fix. `satisfies`
 // without `as const` keeps property VALUES widened to string.
-type _e5b = Expect<Equal<(typeof ROUTES)["home"], string>>
-check("settings route", ROUTES.settings, "/settings")
+type _e5b = Expect<Equal<(typeof ROUTES)["home"], string>>;
+check("settings route", ROUTES.settings, "/settings");
 
 // ---------------------------------------------------------------------------
 // Exercise 6 — as const satisfies: narrow AND checked.
@@ -138,12 +139,12 @@ const THEME = {
   primary: "#4f46e5",
   accent: "#22d3ee",
   danger: 0xef4444,
-}
+};
 
-type ThemeColor = (typeof THEME)[keyof typeof THEME]
+type ThemeColor = (typeof THEME)[keyof typeof THEME];
 
-type _e6 = Expect<Equal<ThemeColor, "#4f46e5" | "#22d3ee" | "#ef4444">>
-check("danger is a hex string", THEME.danger, "#ef4444")
+type _e6 = Expect<Equal<ThemeColor, "#4f46e5" | "#22d3ee" | "#ef4444">>;
+check("danger is a hex string", THEME.danger, "#ef4444");
 
 // ---------------------------------------------------------------------------
 // Exercise 7 — the React payoff.
@@ -158,25 +159,33 @@ const NOTIFICATION_STYLES = {
   info: { icon: "i", color: "blue" },
   success: { icon: "check", color: "green" },
   error: { icon: "cross", color: "red" },
-} as const
+} as const;
 
-type NotificationKind = "info" | "success" | "warning"
+type NotificationKind = "info" | "success" | "warning";
 
 type BadgeProps = {
-  kind: NotificationKind
-  label: string
-}
+  kind: NotificationKind;
+  label: string;
+};
 
 function renderBadge(props: BadgeProps): string {
-  const style = NOTIFICATION_STYLES[props.kind]
-  return `[${style.icon}] ${props.label} (${style.color})`
+  const style = NOTIFICATION_STYLES[props.kind];
+  return `[${style.icon}] ${props.label} (${style.color})`;
 }
 
-type _e7a = Expect<Equal<NotificationKind, "info" | "success" | "error">>
-type _e7b = Expect<Equal<BadgeProps["kind"], "info" | "success" | "error">>
-check("success badge", renderBadge({ kind: "success", label: "Saved" }), "[check] Saved (green)")
-check("error badge", renderBadge({ kind: "error", label: "Failed" }), "[cross] Failed (red)")
+type _e7a = Expect<Equal<NotificationKind, "info" | "success" | "error">>;
+type _e7b = Expect<Equal<BadgeProps["kind"], "info" | "success" | "error">>;
+check(
+  "success badge",
+  renderBadge({ kind: "success", label: "Saved" }),
+  "[check] Saved (green)",
+);
+check(
+  "error badge",
+  renderBadge({ kind: "error", label: "Failed" }),
+  "[cross] Failed (red)",
+);
 
 // ---------------------------------------------------------------------------
-summary()
-export {}
+summary();
+export {};
