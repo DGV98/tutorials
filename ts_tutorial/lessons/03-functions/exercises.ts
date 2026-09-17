@@ -7,8 +7,8 @@
  *
  * Then run it:  npx tsx lessons/03-functions/exercises.ts
  */
-import type { Expect, Equal } from "../../helpers/type-assertions"
-import { check, summary } from "../../helpers/test"
+import type { Expect, Equal } from "../../helpers/type-assertions";
+import { check, summary } from "../../helpers/test";
 
 // ---------------------------------------------------------------------------
 // Exercise 1 — Annotate the parameters.
@@ -18,14 +18,14 @@ import { check, summary } from "../../helpers/test"
 // alone: hover areaOfRect and see that TypeScript infers it.
 // ---------------------------------------------------------------------------
 
-function areaOfRect(width, height) {
-  return width * height
+function areaOfRect(width: number, height: number) {
+  return width * height;
 }
 
-const area = areaOfRect(6, 7)
+const area = areaOfRect(6, 7);
 
-type _e1 = Expect<Equal<typeof area, number>>
-check("area of a 6x7 rectangle", area, 42)
+type _e1 = Expect<Equal<typeof area, number>>;
+check("area of a 6x7 rectangle", area, 42);
 
 // ---------------------------------------------------------------------------
 // Exercise 2 — The annotation caught a bug; fix the bug.
@@ -36,14 +36,14 @@ check("area of a 6x7 rectangle", area, 42)
 // ---------------------------------------------------------------------------
 
 function describeScore(score: number): string {
-  if (score >= 90) return "excellent"
-  if (score >= 50) return "passing"
-  return score
+  if (score >= 90) return "excellent";
+  if (score >= 50) return "passing";
+  return `failed: ${score}`;
 }
 
-check("a great score", describeScore(95), "excellent")
-check("a decent score", describeScore(70), "passing")
-check("a failing score", describeScore(20), "failed: 20")
+check("a great score", describeScore(95), "excellent");
+check("a decent score", describeScore(70), "passing");
+check("a failing score", describeScore(20), "failed: 20");
 
 // ---------------------------------------------------------------------------
 // Exercise 3 — Optional and default parameters.
@@ -56,23 +56,27 @@ check("a failing score", describeScore(20), "failed: 20")
 //       is `string | undefined` in there.
 // ---------------------------------------------------------------------------
 
-function greet(name: string, punctuation: string) {
-  return `Hello, ${name}${punctuation}`
+function greet(name: string, punctuation = ".") {
+  return `Hello, ${name}${punctuation}`;
 }
 
-const casual = greet("Ada")
-const excited = greet("Ada", "!")
+const casual = greet("Ada");
+const excited = greet("Ada", "!");
 
-check("greet falls back to a period", casual, "Hello, Ada.")
-check("greet accepts punctuation", excited, "Hello, Ada!")
+check("greet falls back to a period", casual, "Hello, Ada.");
+check("greet accepts punctuation", excited, "Hello, Ada!");
 
-function fullName(first: string, last: string, middle: string) {
-  type _e3 = Expect<Equal<typeof middle, string | undefined>>
-  return middle ? `${first} ${middle} ${last}` : `${first} ${last}`
+function fullName(first: string, last: string, middle?: string) {
+  type _e3 = Expect<Equal<typeof middle, string | undefined>>;
+  return middle ? `${first} ${middle} ${last}` : `${first} ${last}`;
 }
 
-check("no middle name", fullName("Grace", "Hopper"), "Grace Hopper")
-check("with middle name", fullName("Grace", "Hopper", "Brewster"), "Grace Brewster Hopper")
+check("no middle name", fullName("Grace", "Hopper"), "Grace Hopper");
+check(
+  "with middle name",
+  fullName("Grace", "Hopper", "Brewster"),
+  "Grace Brewster Hopper",
+);
 
 // ---------------------------------------------------------------------------
 // Exercise 4 — Rest parameters.
@@ -82,15 +86,15 @@ check("with middle name", fullName("Grace", "Hopper", "Brewster"), "Grace Brewst
 // reduce callback: no annotations needed there — that's contextual typing.
 // ---------------------------------------------------------------------------
 
-function sum(...values) {
-  return values.reduce((acc, n) => acc + n, 0)
+function sum(...values: number[]) {
+  return values.reduce((acc, n) => acc + n, 0);
 }
 
-const total = sum(1, 2, 3, 4)
+const total = sum(1, 2, 3, 4);
 
-type _e4 = Expect<Equal<typeof total, number>>
-check("sum of four numbers", total, 10)
-check("sum of no numbers", sum(), 0)
+type _e4 = Expect<Equal<typeof total, number>>;
+check("sum of four numbers", total, 10);
+check("sum of no numbers", sum(), 0);
 
 // ---------------------------------------------------------------------------
 // Exercise 5 — Type the callback with a function type expression.
@@ -101,19 +105,19 @@ check("sum of no numbers", sum(), 0)
 // switch from any to string).
 // ---------------------------------------------------------------------------
 
-function forEachUser(ids: string[], callback) {
+function forEachUser(ids: string[], callback: (id: string) => void) {
   for (const id of ids) {
-    callback(id)
+    callback(id);
   }
 }
 
-const notified: string[] = []
+const notified: string[] = [];
 forEachUser(["ada", "grace"], (user) => {
-  type _e5 = Expect<Equal<typeof user, string>>
-  notified.push(user.toUpperCase())
-})
+  type _e5 = Expect<Equal<typeof user, string>>;
+  notified.push(user.toUpperCase());
+});
 
-check("every user was notified", notified, ["ADA", "GRACE"])
+check("every user was notified", notified, ["ADA", "GRACE"]);
 
 // ---------------------------------------------------------------------------
 // Exercise 6 — void: "any return value will be ignored."
@@ -125,27 +129,27 @@ check("every user was notified", notified, ["ADA", "GRACE"])
 //     fire-and-forget — fix its return type annotation.
 // ---------------------------------------------------------------------------
 
-type Listener = (message: string) => void
+type Listener = (message: string) => void;
 
-const listeners: Listener[] = []
+const listeners: Listener[] = [];
 
 function addListener(listener: Listener): void {
-  listeners.push(listener)
+  listeners.push(listener);
 }
 
-const received: string[] = []
-addListener((message) => received.push(message))
+const received: string[] = [];
+addListener((message) => received.push(message));
 
-function emit(message: string): number {
+function emit(message: string): void {
   for (const listener of listeners) {
-    listener(message)
+    listener(message);
   }
 }
 
-const result = emit("deploy finished")
+const result = emit("deploy finished");
 
-type _e6 = Expect<Equal<typeof result, void>>
-check("the listener heard it", received, ["deploy finished"])
+type _e6 = Expect<Equal<typeof result, void>>;
+check("the listener heard it", received, ["deploy finished"]);
 
 // ---------------------------------------------------------------------------
 // Exercise 7 — never: "this function does not return, period."
@@ -156,21 +160,21 @@ check("the listener heard it", received, ["deploy finished"])
 // and both errors disappear.
 // ---------------------------------------------------------------------------
 
-function crash(message: string) {
-  throw new Error(message)
+function crash(message: string): never {
+  throw new Error(message);
 }
 
-type _e7 = Expect<Equal<typeof crash, (message: string) => never>>
+type _e7 = Expect<Equal<typeof crash, (message: string) => never>>;
 
 function parseBoolean(input: string): boolean {
-  if (input === "true") return true
-  if (input === "false") return false
-  crash(`expected "true" or "false", got "${input}"`)
+  if (input === "true") return true;
+  if (input === "false") return false;
+  crash(`expected "true" or "false", got "${input}"`);
 }
 
-check("parses true", parseBoolean("true"), true)
-check("parses false", parseBoolean("false"), false)
+check("parses true", parseBoolean("true"), true);
+check("parses false", parseBoolean("false"), false);
 
 // ---------------------------------------------------------------------------
-summary()
-export {}
+summary();
+export {};

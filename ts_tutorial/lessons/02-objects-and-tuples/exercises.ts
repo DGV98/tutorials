@@ -7,8 +7,8 @@
  *
  * Then run it:  npx tsx lessons/02-objects-and-tuples/exercises.ts
  */
-import type { Expect, Equal } from "../../helpers/type-assertions"
-import { check, summary } from "../../helpers/test"
+import type { Expect, Equal } from "../../helpers/type-assertions";
+import { check, summary } from "../../helpers/test";
 
 // ---------------------------------------------------------------------------
 // Exercise 1 — Match the shape.
@@ -17,19 +17,19 @@ import { check, summary } from "../../helpers/test"
 // ---------------------------------------------------------------------------
 
 type Track = {
-  title: string
-  durationSeconds: number
-  explicit: boolean
-}
+  title: string;
+  durationSeconds: number;
+  explicit: boolean;
+};
 
 const track: Track = {
   title: "Paranoid Android",
-  durationSeconds: "387",
-  explicit: "no",
-}
+  durationSeconds: 387,
+  explicit: false,
+};
 
-check("duration is a number", typeof track.durationSeconds, "number")
-check("explicit is a boolean", typeof track.explicit, "boolean")
+check("duration is a number", typeof track.durationSeconds, "number");
+check("explicit is a boolean", typeof track.explicit, "boolean");
 
 // ---------------------------------------------------------------------------
 // Exercise 2 — Make the optional fields optional.
@@ -39,24 +39,32 @@ check("explicit is a boolean", typeof track.explicit, "boolean")
 // ---------------------------------------------------------------------------
 
 type Profile = {
-  username: string
-  displayName: string
-  avatarUrl: string
-}
+  username: string;
+  displayName?: string;
+  avatarUrl?: string;
+};
 
-const fresh: Profile = { username: "dgonzalez" }
+const fresh: Profile = { username: "dgonzalez" };
 const complete: Profile = {
   username: "ada",
   displayName: "Ada Lovelace",
   avatarUrl: "https://example.com/ada.png",
-}
+};
 
 // Optional properties read back as `T | undefined` — code that uses them
 // must handle the missing case, which the `??` below does.
-type _e2 = Expect<Equal<typeof fresh.avatarUrl, string | undefined>>
+type _e2 = Expect<Equal<typeof fresh.avatarUrl, string | undefined>>;
 
-check("fresh profile falls back to username", fresh.displayName ?? fresh.username, "dgonzalez")
-check("complete profile uses displayName", complete.displayName ?? complete.username, "Ada Lovelace")
+check(
+  "fresh profile falls back to username",
+  fresh.displayName ?? fresh.username,
+  "dgonzalez",
+);
+check(
+  "complete profile uses displayName",
+  complete.displayName ?? complete.username,
+  "Ada Lovelace",
+);
 
 // ---------------------------------------------------------------------------
 // Exercise 3 — Respect readonly.
@@ -66,18 +74,18 @@ check("complete profile uses displayName", complete.displayName ?? complete.user
 // ---------------------------------------------------------------------------
 
 type Session = {
-  readonly userId: number
-  readonly startedAt: string
-  page: string
-}
+  readonly userId: number;
+  readonly startedAt: string;
+  page: string;
+};
 
-const session: Session = { userId: 42, startedAt: "2026-07-09", page: "/home" }
+const session: Session = { userId: 42, startedAt: "2026-07-09", page: "/home" };
 
-session.page = "/settings"
-session.startedAt = "2026-07-10"
+session.page = "/settings";
+// session.startedAt = "2026-07-10"
 
-check("page navigation is allowed", session.page, "/settings")
-check("startedAt never changes", session.startedAt, "2026-07-09")
+check("page navigation is allowed", session.page, "/settings");
+check("startedAt never changes", session.startedAt, "2026-07-09");
 
 // ---------------------------------------------------------------------------
 // Exercise 4 — The typo'd prop.
@@ -90,21 +98,21 @@ check("startedAt never changes", session.startedAt, "2026-07-09")
 // ---------------------------------------------------------------------------
 
 type BadgeProps = {
-  label: string
-  tone?: string
-}
+  label: string;
+  tone?: string;
+};
 
 function renderBadge(props: BadgeProps): string {
-  return props.tone ? `[${props.label}:${props.tone}]` : `[${props.label}]`
+  return props.tone ? `[${props.label}:${props.tone}]` : `[${props.label}]`;
 }
 
-const a = renderBadge({ label: "New", tonee: "green" })
+const a = renderBadge({ label: "New", tone: "green" });
 
-const fromCms = { label: "Sale", priority: 2 }
-const b = renderBadge(fromCms)
+const fromCms = { label: "Sale", priority: 2 };
+const b = renderBadge(fromCms);
 
-check("typo fixed, tone applied", a, "[New:green]")
-check("wider object accepted as-is", b, "[Sale]")
+check("typo fixed, tone applied", a, "[New:green]");
+check("wider object accepted as-is", b, "[Sale]");
 
 // ---------------------------------------------------------------------------
 // Exercise 5 — Nest the type to match the data.
@@ -114,10 +122,14 @@ check("wider object accepted as-is", b, "[Sale]")
 // ---------------------------------------------------------------------------
 
 type ApiUser = {
-  id: number
-  email: string
-  address: string
-}
+  id: number;
+  email: string;
+  address: {
+    city: string;
+    postcode: string;
+    coordinates: { lat: number; lng: number };
+  };
+};
 
 const user: ApiUser = {
   id: 7,
@@ -127,13 +139,13 @@ const user: ApiUser = {
     postcode: "EC1A",
     coordinates: { lat: 51.5, lng: -0.1 },
   },
-}
+};
 
-type _e5a = Expect<Equal<typeof user.address.city, string>>
-type _e5b = Expect<Equal<typeof user.address.coordinates.lat, number>>
+type _e5a = Expect<Equal<typeof user.address.city, string>>;
+type _e5b = Expect<Equal<typeof user.address.coordinates.lat, number>>;
 
-check("city is one level down", user.address.city, "London")
-check("lat is two levels down", user.address.coordinates.lat, 51.5)
+check("city is one level down", user.address.city, "London");
+check("lat is two levels down", user.address.coordinates.lat, 51.5);
 
 // ---------------------------------------------------------------------------
 // Exercise 6 — Tuple, not array.
@@ -143,17 +155,17 @@ check("lat is two levels down", user.address.coordinates.lat, 51.5)
 // piece the type string | number. Annotate `row` as a tuple.
 // ---------------------------------------------------------------------------
 
-const row = ["Paranoid Android", 387]
+const row: [string, number] = ["Paranoid Android", 387];
 
-type _e6a = Expect<Equal<typeof row, [string, number]>>
+type _e6a = Expect<Equal<typeof row, [string, number]>>;
 
-const [songTitle, playCount] = row
+const [songTitle, playCount] = row;
 
-type _e6b = Expect<Equal<typeof songTitle, string>>
-type _e6c = Expect<Equal<typeof playCount, number>>
+type _e6b = Expect<Equal<typeof songTitle, string>>;
+type _e6c = Expect<Equal<typeof playCount, number>>;
 
-check("position 0 is the title", songTitle, "Paranoid Android")
-check("position 1 is the count", playCount, 387)
+check("position 0 is the title", songTitle, "Paranoid Android");
+check("position 1 is the count", playCount, 387);
 
 // ---------------------------------------------------------------------------
 // Exercise 7 — Readonly tuples stay put.
@@ -163,17 +175,17 @@ check("position 1 is the count", playCount, 387)
 // `lighter` below already builds the new color the right way, as a new tuple.
 // ---------------------------------------------------------------------------
 
-type Rgb = readonly [red: number, green: number, blue: number]
+type Rgb = readonly [red: number, green: number, blue: number];
 
-const brand: Rgb = [59, 130, "246"]
+const brand: Rgb = [59, 130, 246];
 
-brand[0] = 89
+// brand[0] = 89;
 
-const lighter: Rgb = [brand[0] + 9, brand[1] + 9, brand[2] + 9]
+const lighter: Rgb = [brand[0] + 9, brand[1] + 9, brand[2] + 9];
 
-check("brand color is untouched", brand, [59, 130, 246])
-check("lighter is a new tuple", lighter, [68, 139, 255])
+check("brand color is untouched", brand, [59, 130, 246]);
+check("lighter is a new tuple", lighter, [68, 139, 255]);
 
 // ---------------------------------------------------------------------------
-summary()
-export {}
+summary();
+export {};

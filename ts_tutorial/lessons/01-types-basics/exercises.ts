@@ -15,9 +15,9 @@ import { check, summary } from "../../helpers/test"
 // Each variable's annotation is correct; the values are wrong.
 // ---------------------------------------------------------------------------
 
-const username: string = 1019
-const loginCount: number = "14"
-const isActive: boolean = "true"
+const username: string = "1019"
+const loginCount: number = 14
+const isActive: boolean = true
 
 check("username is a string", typeof username, "string")
 check("loginCount is a number", typeof loginCount, "number")
@@ -30,8 +30,8 @@ check("isActive is a boolean", typeof isActive, "boolean")
 // The assigned values are correct; fix the annotations to match.
 // ---------------------------------------------------------------------------
 
-let sessionToken: boolean
-let retryLimit: string
+let sessionToken: string
+let retryLimit: number
 
 sessionToken = "abc-123"
 retryLimit = 3
@@ -45,9 +45,9 @@ type _e2b = Expect<Equal<typeof retryLimit, number>>
 // Delete the annotations entirely and let TypeScript infer the types.
 // ---------------------------------------------------------------------------
 
-const appName: any = "inbox-zero"
-let version: any = 2
-const tags: any = ["email", "productivity"]
+const appName = "inbox-zero"
+let version: number = 2
+const tags: string[] = ["email", "productivity"]
 
 // Note the difference below: `version` is a `let`, so it infers the widened
 // type number. `appName` is a `const`, so it infers the literal type
@@ -64,9 +64,9 @@ type _e3c = Expect<Equal<typeof appName, "inbox-zero">>
 // number[], then fix the push that violates it.
 // ---------------------------------------------------------------------------
 
-const pendingIds = []
+const pendingIds: number[] = []
 pendingIds.push(101)
-pendingIds.push("102")
+pendingIds.push(102)
 
 type _e4 = Expect<Equal<typeof pendingIds, number[]>>
 check("two ids are pending", pendingIds.length, 2)
@@ -82,7 +82,7 @@ function formatPlayCount(count: number) {
   return `played ${count} times`
 }
 
-const label = formatPlayCount("42")
+const label = formatPlayCount(42)
 
 check("label is built from a number", label, "played 42 times")
 
