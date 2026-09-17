@@ -7,8 +7,8 @@
  *
  * Then run it:  npx tsx lessons/04-unions-and-narrowing/exercises.ts
  */
-import type { Expect, Equal } from "../../helpers/type-assertions"
-import { check, summary } from "../../helpers/test"
+import type { Expect, Equal } from "../../helpers/type-assertions";
+import { check, summary } from "../../helpers/test";
 
 // ---------------------------------------------------------------------------
 // Exercise 1 — Prove which branch you hold.
@@ -18,11 +18,12 @@ import { check, summary } from "../../helpers/test"
 // ---------------------------------------------------------------------------
 
 function describeId(id: string | number): string {
-  return id.toUpperCase()
+  if (typeof id === "number") return `#${id}`;
+  return id.toUpperCase();
 }
 
-check("string ids are uppercased", describeId("abc"), "ABC")
-check("number ids get a hash", describeId(42), "#42")
+check("string ids are uppercased", describeId("abc"), "ABC");
+check("number ids get a hash", describeId(42), "#42");
 
 // ---------------------------------------------------------------------------
 // Exercise 2 — Literal unions, the React variant pattern.
@@ -32,20 +33,20 @@ check("number ids get a hash", describeId(42), "#42")
 // an annotation, and don't touch the assertion).
 // ---------------------------------------------------------------------------
 
-type ButtonVariant = "primary" | "secondary" | "danger"
+type ButtonVariant = "primary" | "secondary" | "danger";
 
 function buttonClass(variant: ButtonVariant): string {
-  return `btn-${variant}`
+  return `btn-${variant}`;
 }
 
-const saveClass = buttonClass("primry")
+const saveClass = buttonClass("primary");
 
-let chosen = "secondary"
-const cancelClass = buttonClass(chosen)
+const chosen = "secondary";
+const cancelClass = buttonClass(chosen);
 
-type _e2 = Expect<Equal<typeof chosen, "secondary">>
-check("save button class", saveClass, "btn-primary")
-check("cancel button class", cancelClass, "btn-secondary")
+type _e2 = Expect<Equal<typeof chosen, "secondary">>;
+check("save button class", saveClass, "btn-primary");
+check("cancel button class", cancelClass, "btn-secondary");
 
 // ---------------------------------------------------------------------------
 // Exercise 3 — Narrow out null. Carefully.
@@ -56,12 +57,13 @@ check("cancel button class", cancelClass, "btn-secondary")
 // ---------------------------------------------------------------------------
 
 function formatCount(count: number | null): string {
-  return `${count.toFixed(0)} items`
+  if (count === null) return "no data";
+  return `${count.toFixed(0)} items`;
 }
 
-check("null means no data", formatCount(null), "no data")
-check("zero is real data", formatCount(0), "0 items")
-check("normal counts format", formatCount(12), "12 items")
+check("null means no data", formatCount(null), "no data");
+check("zero is real data", formatCount(0), "0 items");
+check("normal counts format", formatCount(12), "12 items");
 
 // ---------------------------------------------------------------------------
 // Exercise 4 — Narrow object shapes with `in`.
@@ -70,15 +72,24 @@ check("normal counts format", formatCount(12), "12 items")
 // `Name <email>`, phone contacts as `Name (phone)`.
 // ---------------------------------------------------------------------------
 
-type EmailContact = { name: string; email: string }
-type PhoneContact = { name: string; phone: string }
+type EmailContact = { name: string; email: string };
+type PhoneContact = { name: string; phone: string };
 
 function contactLine(contact: EmailContact | PhoneContact): string {
-  return `${contact.name} <${contact.email}>`
+  if ("phone" in contact) return `${contact.name} (${contact.phone})`;
+  return `${contact.name} <${contact.email}>`;
 }
 
-check("email contact", contactLine({ name: "Ada", email: "ada@lovelace.dev" }), "Ada <ada@lovelace.dev>")
-check("phone contact", contactLine({ name: "Grace", phone: "555-0101" }), "Grace (555-0101)")
+check(
+  "email contact",
+  contactLine({ name: "Ada", email: "ada@lovelace.dev" }),
+  "Ada <ada@lovelace.dev>",
+);
+check(
+  "phone contact",
+  contactLine({ name: "Grace", phone: "555-0101" }),
+  "Grace (555-0101)",
+);
 
 // ---------------------------------------------------------------------------
 // Exercise 5 — Narrow class instances with `instanceof`.
@@ -89,11 +100,16 @@ check("phone contact", contactLine({ name: "Grace", phone: "555-0101" }), "Grace
 // ---------------------------------------------------------------------------
 
 function errorText(failure: Error | string): string {
-  return failure.message
+  if (failure instanceof Error) return failure.message;
+  return failure;
 }
 
-check("Error instances expose .message", errorText(new Error("boom")), "boom")
-check("plain strings pass through", errorText("wires crossed"), "wires crossed")
+check("Error instances expose .message", errorText(new Error("boom")), "boom");
+check(
+  "plain strings pass through",
+  errorText("wires crossed"),
+  "wires crossed",
+);
 
 // ---------------------------------------------------------------------------
 // Exercise 6 — The fetch state machine.
@@ -109,22 +125,33 @@ type FetchState =
   | { status: "idle" }
   | { status: "loading" }
   | { status: "success"; data: string[] }
-  | { status: "error"; message: string }
+  | { status: "error"; message: string };
 
 function renderResults(state: FetchState): string {
-  if (state.status === "loading") return "spinner"
+  if (state.status === "loading") return "spinner";
+  if (state.status === "idle") return "nothing yet";
   if (state.status === "error") {
     // The discriminant check narrowed the WHOLE object — see for yourself:
-    type _e6 = Expect<Equal<typeof state, { status: "error"; message: string }>>
-    return `error: ${state.message}`
+    type _e6 = Expect<
+      Equal<typeof state, { status: "error"; message: string }>
+    >;
+    return `error: ${state.message}`;
   }
-  return `${state.data.length} results`
+  return `${state.data.length} results`;
 }
 
-check("idle state", renderResults({ status: "idle" }), "nothing yet")
-check("loading state", renderResults({ status: "loading" }), "spinner")
-check("success state", renderResults({ status: "success", data: ["a", "b"] }), "2 results")
-check("error state", renderResults({ status: "error", message: "offline" }), "error: offline")
+check("idle state", renderResults({ status: "idle" }), "nothing yet");
+check("loading state", renderResults({ status: "loading" }), "spinner");
+check(
+  "success state",
+  renderResults({ status: "success", data: ["a", "b"] }),
+  "2 results",
+);
+check(
+  "error state",
+  renderResults({ status: "error", message: "offline" }),
+  "error: offline",
+);
 
 // ---------------------------------------------------------------------------
 // Exercise 7 — Exhaustiveness: the compiler's to-do list.
@@ -137,25 +164,27 @@ check("error state", renderResults({ status: "error", message: "offline" }), "er
 type CounterAction =
   | { type: "increment" }
   | { type: "decrement" }
-  | { type: "reset"; to: number }
+  | { type: "reset"; to: number };
 
 function nextCount(current: number, action: CounterAction): number {
   switch (action.type) {
     case "increment":
-      return current + 1
+      return current + 1;
     case "decrement":
-      return current - 1
+      return current - 1;
+    case "reset":
+      return action.to;
     default: {
-      const unhandled: never = action
-      return unhandled
+      const unhandled: never = action;
+      return unhandled;
     }
   }
 }
 
-check("increment", nextCount(4, { type: "increment" }), 5)
-check("decrement", nextCount(4, { type: "decrement" }), 3)
-check("reset jumps to the target", nextCount(4, { type: "reset", to: 0 }), 0)
+check("increment", nextCount(4, { type: "increment" }), 5);
+check("decrement", nextCount(4, { type: "decrement" }), 3);
+check("reset jumps to the target", nextCount(4, { type: "reset", to: 0 }), 0);
 
 // ---------------------------------------------------------------------------
-summary()
-export {}
+summary();
+export {};

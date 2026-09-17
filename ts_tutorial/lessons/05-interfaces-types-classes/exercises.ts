@@ -7,8 +7,8 @@
  *
  * Then run it:  npx tsx lessons/05-interfaces-types-classes/exercises.ts
  */
-import type { Expect, Equal } from "../../helpers/type-assertions"
-import { check, summary } from "../../helpers/test"
+import type { Expect, Equal } from "../../helpers/type-assertions";
+import { check, summary } from "../../helpers/test";
 
 // ---------------------------------------------------------------------------
 // Exercise 1 — The interface is the contract; the object breaks it.
@@ -19,18 +19,19 @@ import { check, summary } from "../../helpers/test"
 // ---------------------------------------------------------------------------
 
 interface Track {
-  title: string
-  durationSec: number
-  explicit: boolean
+  title: string;
+  durationSec: number;
+  explicit: boolean;
 }
 
 const paranoid: Track = {
   title: "Paranoid Android",
-  durationSec: "6:23",
-}
+  durationSec: 383,
+  explicit: false,
+};
 
-check("duration is stored in seconds", paranoid.durationSec, 383)
-check("explicit flag is present", paranoid.explicit, false)
+check("duration is stored in seconds", paranoid.durationSec, 383);
+check("explicit flag is present", paranoid.explicit, false);
 
 // ---------------------------------------------------------------------------
 // Exercise 2 — Don't copy fields; extend.
@@ -40,17 +41,17 @@ check("explicit flag is present", paranoid.explicit, false)
 // ---------------------------------------------------------------------------
 
 interface Album {
-  title: string
-  artist: string
-  year: number
+  title: string;
+  artist: string;
+  year: number;
 }
 
 function formatAlbum(album: Album): string {
-  return `${album.artist} — ${album.title} (${album.year})`
+  return `${album.artist} — ${album.title} (${album.year})`;
 }
 
-interface StudioAlbum {
-  label: string
+interface StudioAlbum extends Album {
+  label: string;
 }
 
 const okComputer: StudioAlbum = {
@@ -58,15 +59,15 @@ const okComputer: StudioAlbum = {
   artist: "Radiohead",
   year: 1997,
   label: "Parlophone",
-}
+};
 
-type _e2 = Expect<Equal<StudioAlbum["year"], number>>
+type _e2 = Expect<Equal<StudioAlbum["year"], number>>;
 
 check(
   "a StudioAlbum is accepted anywhere an Album is",
   formatAlbum(okComputer),
   "Radiohead — OK Computer (1997)",
-)
+);
 
 // ---------------------------------------------------------------------------
 // Exercise 3 — Intersections combine type aliases.
@@ -75,27 +76,27 @@ check(
 // ---------------------------------------------------------------------------
 
 type User = {
-  id: string
-  displayName: string
-}
+  id: string;
+  displayName: string;
+};
 
 type Permissions = {
-  canBan: boolean
-  canEditPosts: boolean
-}
+  canBan: boolean;
+  canEditPosts: boolean;
+};
 
-type AdminUser = User
+type AdminUser = User & Permissions;
 
 const moderator: AdminUser = {
   id: "u_31",
   displayName: "dgonz",
   canBan: true,
   canEditPosts: false,
-}
+};
 
-type _e3 = Expect<Equal<AdminUser, User & Permissions>>
+type _e3 = Expect<Equal<AdminUser, User & Permissions>>;
 
-check("moderator can ban", moderator.canBan, true)
+check("moderator can ban", moderator.canBan, true);
 
 // ---------------------------------------------------------------------------
 // Exercise 4 — A conflicting intersection makes `never`.
@@ -106,26 +107,26 @@ check("moderator can ban", moderator.canBan, true)
 // ---------------------------------------------------------------------------
 
 type ServerTrack = {
-  id: string
-  title: string
-}
+  id: string;
+  title: string;
+};
 
 type LocalTrack = {
-  id: number
-  cachedAt: number
-}
+  id: string;
+  cachedAt: number;
+};
 
-type SyncedTrack = ServerTrack & LocalTrack
+type SyncedTrack = ServerTrack & LocalTrack;
 
 const synced: SyncedTrack = {
   id: "t_9",
   title: "Nude",
   cachedAt: 1720000000,
-}
+};
 
-type _e4 = Expect<Equal<SyncedTrack["id"], string>>
+type _e4 = Expect<Equal<SyncedTrack["id"], string>>;
 
-check("synced track keeps the server id", synced.id, "t_9")
+check("synced track keeps the server id", synced.id, "t_9");
 
 // ---------------------------------------------------------------------------
 // Exercise 5 — Class keywords are enforced, not decorative.
@@ -141,7 +142,7 @@ check("synced track keeps the server id", synced.id, "t_9")
 // ---------------------------------------------------------------------------
 
 class Playlist {
-  private tracks: string[]
+  private tracks: string[] = [];
 
   constructor(
     public readonly id: string,
@@ -149,25 +150,25 @@ class Playlist {
   ) {}
 
   add(track: string): void {
-    this.tracks.push(track)
+    this.tracks.push(track);
   }
 
   size(): number {
-    return this.tracks.length
+    return this.tracks.length;
   }
 }
 
-const afternoon = new Playlist("pl-1", "Afternoon Focus")
-afternoon.add("Weird Fishes")
-afternoon.add("Pyramid Song")
+const afternoon = new Playlist("pl-1", "Afternoon Focus");
+afternoon.add("Weird Fishes");
+afternoon.add("Pyramid Song");
 
-afternoon.id = "pl-2"
+afternoon.name = "Deep Focus";
 
 // A class declares a type with the same name — no `interface Playlist` needed.
-type _e5 = Expect<Equal<typeof afternoon, Playlist>>
+type _e5 = Expect<Equal<typeof afternoon, Playlist>>;
 
-check("playlist was renamed", afternoon.name, "Deep Focus")
-check("playlist counts its tracks", afternoon.tracks.length, 2)
+check("playlist was renamed", afternoon.name, "Deep Focus");
+check("playlist counts its tracks", afternoon.size(), 2);
 
 // ---------------------------------------------------------------------------
 // Exercise 6 — `implements` is a promise; keep it.
@@ -179,12 +180,15 @@ check("playlist counts its tracks", afternoon.tracks.length, 2)
 // ---------------------------------------------------------------------------
 
 interface WithStatus {
-  status: number
+  status: number;
 }
 
 class HttpError extends Error implements WithStatus {
-  constructor(message: string, status: number) {
-    super(message)
+  constructor(
+    message: string,
+    public readonly status: number,
+  ) {
+    super(message);
   }
 }
 
@@ -192,19 +196,23 @@ function describeError(err: Error): string {
   if (err instanceof HttpError) {
     // `instanceof` narrowed Error → HttpError (lesson 04's narrowing —
     // possible because classes, unlike interfaces, exist at runtime).
-    type _e6 = Expect<Equal<typeof err, HttpError>>
-    return `HTTP ${err.status} — ${err.message}`
+    type _e6 = Expect<Equal<typeof err, HttpError>>;
+    return `HTTP ${err.status} — ${err.message}`;
   }
-  return err.message
+  return err.message;
 }
 
 check(
   "http errors report their status",
   describeError(new HttpError("Not Found", 404)),
   "HTTP 404 — Not Found",
-)
-check("plain errors pass through", describeError(new Error("disk full")), "disk full")
+);
+check(
+  "plain errors pass through",
+  describeError(new Error("disk full")),
+  "disk full",
+);
 
 // ---------------------------------------------------------------------------
-summary()
-export {}
+summary();
+export {};

@@ -7,8 +7,8 @@
  *
  * Then run it:  npx tsx lessons/06-generics/exercises.ts
  */
-import type { Expect, Equal } from "../../helpers/type-assertions"
-import { check, summary } from "../../helpers/test"
+import type { Expect, Equal } from "../../helpers/type-assertions";
+import { check, summary } from "../../helpers/test";
 
 // ---------------------------------------------------------------------------
 // Exercise 1 — From unknown to generic.
@@ -17,18 +17,18 @@ import { check, summary } from "../../helpers/test"
 // call site keeps its own type. Fix the function; don't touch the calls.
 // ---------------------------------------------------------------------------
 
-function firstItem(items: unknown[]): unknown {
-  return items[0]
+function firstItem<T>(items: T[]): T {
+  return items[0];
 }
 
-const firstTag = firstItem(["urgent", "bug", "ui"])
-const firstScore = firstItem([98, 87, 91])
+const firstTag = firstItem(["urgent", "bug", "ui"]);
+const firstScore = firstItem([98, 87, 91]);
 
-type _e1a = Expect<Equal<typeof firstTag, string>>
-type _e1b = Expect<Equal<typeof firstScore, number>>
+type _e1a = Expect<Equal<typeof firstTag, string>>;
+type _e1b = Expect<Equal<typeof firstScore, number>>;
 
-check("firstTag keeps its string type", firstTag, "urgent")
-check("firstScore keeps its number type", firstScore, 98)
+check("firstTag keeps its string type", firstTag, "urgent");
+check("firstScore keeps its number type", firstScore, 98);
 
 // ---------------------------------------------------------------------------
 // Exercise 2 — Explicit type arguments.
@@ -40,17 +40,17 @@ check("firstScore keeps its number type", firstScore, 98)
 // ---------------------------------------------------------------------------
 
 function lastOf<T>(items: T[]): T | undefined {
-  return items[items.length - 1]
+  return items[items.length - 1];
 }
 
-const lastQueued = lastOf([])
-const lastMeeting = lastOf<number>(["standup", "retro"])
+const lastQueued = lastOf<string>([]);
+const lastMeeting = lastOf<string>(["standup", "retro"]);
 
-type _e2a = Expect<Equal<typeof lastQueued, string | undefined>>
-type _e2b = Expect<Equal<typeof lastMeeting, string | undefined>>
+type _e2a = Expect<Equal<typeof lastQueued, string | undefined>>;
+type _e2b = Expect<Equal<typeof lastMeeting, string | undefined>>;
 
-check("nothing queued yet", lastQueued, undefined)
-check("last meeting of the day", lastMeeting, "retro")
+check("nothing queued yet", lastQueued, undefined);
+check("last meeting of the day", lastMeeting, "retro");
 
 // ---------------------------------------------------------------------------
 // Exercise 3 — Multiple type parameters.
@@ -60,22 +60,22 @@ check("last meeting of the day", lastMeeting, "retro")
 // one annotation inside the body; don't touch the calls.
 // ---------------------------------------------------------------------------
 
-function mapItems(items: string[], transform: (item: string) => string): string[] {
-  const out: string[] = []
+function mapItems<In, Out>(items: In[], transform: (item: In) => Out): Out[] {
+  const out: Out[] = [];
   for (const item of items) {
-    out.push(transform(item))
+    out.push(transform(item));
   }
-  return out
+  return out;
 }
 
-const shouts = mapItems(["ok", "go"], (s) => s.toUpperCase())
-const lengths = mapItems(["ok", "error", "retry"], (s) => s.length)
+const shouts = mapItems(["ok", "go"], (s) => s.toUpperCase());
+const lengths = mapItems(["ok", "error", "retry"], (s) => s.length);
 
-type _e3a = Expect<Equal<typeof shouts, string[]>>
-type _e3b = Expect<Equal<typeof lengths, number[]>>
+type _e3a = Expect<Equal<typeof shouts, string[]>>;
+type _e3b = Expect<Equal<typeof lengths, number[]>>;
 
-check("strings map to strings", shouts, ["OK", "GO"])
-check("strings map to numbers", lengths, [2, 5, 5])
+check("strings map to strings", shouts, ["OK", "GO"]);
+check("strings map to numbers", lengths, [2, 5, 5]);
 
 // ---------------------------------------------------------------------------
 // Exercise 4 — Add a constraint.
@@ -85,20 +85,23 @@ check("strings map to numbers", lengths, [2, 5, 5])
 // body compiles. Don't change the body or the calls.
 // ---------------------------------------------------------------------------
 
-function findById<T>(items: T[], id: string): T | undefined {
-  return items.find((item) => item.id === id)
+function findById<T extends { id: string }>(
+  items: T[],
+  id: string,
+): T | undefined {
+  return items.find((item) => item.id === id);
 }
 
 const users = [
   { id: "u1", name: "Ada" },
   { id: "u2", name: "Grace" },
-]
-const ada = findById(users, "u1")
+];
+const ada = findById(users, "u1");
 
-type _e4 = Expect<Equal<typeof ada, { id: string; name: string } | undefined>>
+type _e4 = Expect<Equal<typeof ada, { id: string; name: string } | undefined>>;
 
-check("found Ada by id", ada?.name, "Ada")
-check("missing id gives undefined", findById(users, "u9"), undefined)
+check("found Ada by id", ada?.name, "Ada");
+check("missing id gives undefined", findById(users, "u9"), undefined);
 
 // ---------------------------------------------------------------------------
 // Exercise 5 — The lookup pattern.
@@ -108,20 +111,20 @@ check("missing id gives undefined", findById(users, "u9"), undefined)
 // already correct. Don't touch the calls.
 // ---------------------------------------------------------------------------
 
-function getProp(obj: Record<string, unknown>, key: string): unknown {
-  return obj[key]
+function getProp<T, K extends keyof T>(obj: T, key: K): T[K] {
+  return obj[key];
 }
 
-const editorConfig = { theme: "dark", fontSize: 14, relativeNumbers: true }
+const editorConfig = { theme: "dark", fontSize: 14, relativeNumbers: true };
 
-const theme = getProp(editorConfig, "theme")
-const fontSize = getProp(editorConfig, "fontSize")
+const theme = getProp(editorConfig, "theme");
+const fontSize = getProp(editorConfig, "fontSize");
 
-type _e5a = Expect<Equal<typeof theme, string>>
-type _e5b = Expect<Equal<typeof fontSize, number>>
+type _e5a = Expect<Equal<typeof theme, string>>;
+type _e5b = Expect<Equal<typeof fontSize, number>>;
 
-check("theme keeps its property type", theme, "dark")
-check("fontSize keeps its property type", fontSize, 14)
+check("theme keeps its property type", theme, "dark");
+check("fontSize keeps its property type", fontSize, 14);
 
 // ---------------------------------------------------------------------------
 // Exercise 6 — Make the TYPE generic.
@@ -131,24 +134,26 @@ check("fontSize keeps its property type", fontSize, 14)
 // Fix the type alias only; the variables are correct.
 // ---------------------------------------------------------------------------
 
-type ApiResponse = {
-  status: number
-  data: string
-}
+type ApiResponse<T> = {
+  status: number;
+  data: T;
+};
 
-const healthResponse: ApiResponse<string> = { status: 200, data: "ok" }
+const healthResponse: ApiResponse<string> = { status: 200, data: "ok" };
 const userResponse: ApiResponse<{ id: string; name: string }> = {
   status: 200,
   data: { id: "u1", name: "Ada" },
-}
-const countResponse: ApiResponse<number> = { status: 200, data: 42 }
+};
+const countResponse: ApiResponse<number> = { status: 200, data: 42 };
 
-type _e6a = Expect<Equal<typeof userResponse.data, { id: string; name: string }>>
-type _e6b = Expect<Equal<typeof countResponse.data, number>>
+type _e6a = Expect<
+  Equal<typeof userResponse.data, { id: string; name: string }>
+>;
+type _e6b = Expect<Equal<typeof countResponse.data, number>>;
 
-check("health endpoint data", healthResponse.data, "ok")
-check("user endpoint data", userResponse.data.name, "Ada")
-check("count endpoint data", countResponse.data, 42)
+check("health endpoint data", healthResponse.data, "ok");
+check("user endpoint data", userResponse.data.name, "Ada");
+check("count endpoint data", countResponse.data, 42);
 
 // ---------------------------------------------------------------------------
 // Exercise 7 — Default type parameters.
@@ -158,30 +163,30 @@ check("count endpoint data", countResponse.data, 42)
 // argument(s)". Give T a default. Don't touch the variables.
 // ---------------------------------------------------------------------------
 
-type PaginatedList<T> = {
-  items: T[]
-  page: number
-  totalPages: number
-}
+type PaginatedList<T = string> = {
+  items: T[];
+  page: number;
+  totalPages: number;
+};
 
 const tagPage: PaginatedList = {
   items: ["typescript", "react", "nextjs"],
   page: 1,
   totalPages: 4,
-}
+};
 
 const scorePage: PaginatedList<number> = {
   items: [88, 92, 79],
   page: 2,
   totalPages: 3,
-}
+};
 
-type _e7a = Expect<Equal<typeof tagPage.items, string[]>>
-type _e7b = Expect<Equal<typeof scorePage.items, number[]>>
+type _e7a = Expect<Equal<typeof tagPage.items, string[]>>;
+type _e7b = Expect<Equal<typeof scorePage.items, number[]>>;
 
-check("tag page holds strings", tagPage.items[0], "typescript")
-check("score page holds numbers", scorePage.items.length, 3)
+check("tag page holds strings", tagPage.items[0], "typescript");
+check("score page holds numbers", scorePage.items.length, 3);
 
 // ---------------------------------------------------------------------------
-summary()
-export {}
+summary();
+export {};
